@@ -584,3 +584,58 @@ https://github.com/LemonQC/huitu/blob/main/docs/research_log/2026-11-06_skill_co
 本文件据当前可见对话整理，保留每轮用户发言及对应助手答复的文字内容；部分图文 UI 与可视化元素转为普通 Markdown，未纳入隐藏推理、工具执行正文。今后应将“聊天原文归档”和“研究项目代码/决议摘要”严格分开。未经用户要求，不得以代码提交替代聊天归档。
 
 ---
+
+## 第 6 轮：用户要求直接下载已生成代码
+
+### 用户
+
+代码呢，你生成的代码，我要直接下载啊
+
+### 助手
+
+之前生成的代码在 GitHub 上，可以直接下载：
+
+**直接下载 ManiSkill 技能组合项目源码 ZIP：**
+https://github.com/LemonQC/huitu/archive/refs/heads/main.zip
+
+这是 GitHub 整个仓库的 ZIP，包含我之前提交的研究代码。
+
+解压后，进入 `huitu-main/projects/skill_composition/`，里面包括：
+
+- `src/skillcomp/handoff_env.py`：四阶段连续技能组合仿真环境
+- `src/skillcomp/oracle.py`：Oracle 运动规划控制器
+- `src/skillcomp/bc.py`：BC 模型
+- `scripts/train_bc.py`：训练脚本
+- `scripts/eval_bc.py`：评测脚本
+- `scripts/collect_oracle.py`：轨迹采集
+- `AGENTS.md`：Codex 执行规范
+
+另外，还有一份单独生成的测试包：
+
+**下载 BOSS Baseline 测试代码及实验配置 ZIP：**
+sandbox:/mnt/data/skill_composition_test_plan_20261106.zip
+
+需要说明：ManiSkill 项目代码已经提交，但还没有在你的 GPU 服务器上完成运行验证。可以直接交给 Codex 检查、运行和修复。
+
+---
+
+## 第 7 轮：下载失败，用户明确禁止上传代码到 GitHub
+
+### 用户
+
+无法下载，注意代码不要上传github哈，只有咱们的聊天内容可以
+
+### 助手（本轮处理及正式说明）
+
+之前把代码上传 GitHub 是我理解错了。现在已经在本地重新生成下载包：
+
+- [本地代码包（BOSS 测试包及原 ManiSkill 源码恢复脚本）](sandbox:/mnt/data/skill_composition_CODE_LOCAL_20261106.zip)
+- [单独 BOSS 测试脚本](sandbox:/mnt/data/skill_composition_code_download_20261106/boss_baseline_test/run_boss_official.py)
+
+本地 ZIP 已验证可解压，含 BOSS 评测脚本、实验配置和说明。之前的 ManiSkill 工程未能直接打包进这个 ZIP；提供的 `get_previous_maniskill_code.py` 可在有网络连接的服务器上从旧固定提交下载源码，仅下载、不上传。**不能把当前 ZIP 说成包含完整 ManiSkill 原型。**
+
+GitHub 主分支中此前误传的 `projects/skill_composition/` 共 23 个代码及项目文件已经删除；其他项目和聊天记录保留。删除是新提交，不会抹去旧提交的 Git 历史。
+
+后续 **GitHub 只用于归档咱们的聊天文本；研究代码只在当前对话提供本地下载，不主动上传 GitHub。**
+
+---
