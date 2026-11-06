@@ -24,6 +24,8 @@ python -m mani_skill.examples.motionplanning.panda.run -e StackCube-v1 --save-vi
 - [固定问题、任务划分、实验门槛](docs/PLAN_ZH.md)
 - [算法清单、复现身份、优先级](docs/BASELINES_ZH.md)
 - [交付给 Codex 的任务与验收](AGENTS.md)
+- [可直接复制给 Codex 的逐步执行指令](docs/CODEX_EXECUTION_PROMPT_ZH.md)
+- [主环境的真实实现状态](docs/ENV_STATUS.md)
 - [讨论记录](../../docs/research_log/2026-11-06_skill_composition.md)
 
 ## 复现基本原则
