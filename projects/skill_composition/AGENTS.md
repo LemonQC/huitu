@@ -6,7 +6,7 @@
 
 M0 — 在 Linux GPU 服务器完成 smoke：安装 requirements；运行 `scripts/smoke.py`；官方 `StackCube-v1` motion planning 示范；输出版本及 seed、视频链接。验证官方演示数据的控制模式、obs 模式和 h5/JSON metadata。
 
-M1 — 先使用官方 StackCube 演示转成 `state + pd_ee_delta_pose`，再跑 `scripts/make_dataset.py`、`scripts/train_bc.py`、`scripts/eval_bc.py`。避免 action/obs controller 错配；train/val 按 episode 分组。记录不依赖视频的成功判据。当前示范包含单任务完整轨迹，不可当成独立技能组合数据。
+M1 — 已提供 `src/skillcomp/oracle.py` 和 `scripts/collect_oracle.py` 初稿；先依据官方 Panda solver 核验/调通真实四阶段轨迹（注意 Oracle 使用 `pd_joint_pos`，学习统一用 `pd_ee_delta_pose`），再使用官方 StackCube 演示转成 `state + pd_ee_delta_pose`，再跑 `scripts/make_dataset.py`、`scripts/train_bc.py`、`scripts/eval_bc.py`。避免 action/obs controller 错配；train/val 按 episode 分组。记录不依赖视频的成功判据。当前示范包含单任务完整轨迹，不可当成独立技能组合数据。
 
 M2 — **最重要**：实现 `HandoffRegraspStack-v0` 在同一个 Panda/SAPIEN scene 中不重置地完成 Pick→PlaceOnStaging→Regrasp→Stack。先给出能成功的 oracle/scripted policy 和真实视频，检验可行性；至少两个具有实际操作意义的合法路径；不得通过直接 set_pose 改善交接。实现 train/val/test split freeze，失败类别日志，以及原子技能单测覆盖组合入口状态。
 
