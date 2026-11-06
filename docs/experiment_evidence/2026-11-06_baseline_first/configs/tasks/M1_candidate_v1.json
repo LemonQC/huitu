@@ -1,0 +1,10 @@
+{
+ "status":"PREREGISTERED_ENGINEERING_PILOT_NOT_FINAL_BENCHMARK",
+ "date_utc":"2026-11-06",
+ "reason":"Extend existing physical pilot into multiple continuous staging/goal configurations and audit native ManiSkill3 tool operation followed by safe tool return; no algorithm trained or evaluated yet.",
+ "backend":"physx_cpu", "robot":"panda", "control_mode":"pd_joint_pos", "control_hz":20, "sim_hz":100,
+ "T1":{"sequence":["pick","stage_release","regrasp","stack"],"cube_halfsize":0.02,"initial_A_center":[-0.14,-0.02],"initial_xy_fullwidth":0.03,"goal_centers":[[0.14,0.10],[0.08,0.17],[-0.04,0.16]],"staging_x_range":[-0.02,0.08],"staging_y_range":[-0.18,-0.10],"max_steps":500,"pilot_seeds":[230000,230023],"config_rule":"episode_index modulo 3","success":"existing physical phase criteria with final stable ungrasped stack; no threshold changes"},
+ "T2":{"source":"ManiSkill3.0.1 PullCubeTool-v1 native environment and official planner; not a Compose-by-Focus reproduction","sequence":["acquire_tool","contact_pull","reposition_tool","return_release"],"native_cube_tool_initialization":true,"return_positions":[[-0.20,-0.18],[-0.20,0.02],[-0.05,-0.22]],"success":"cube actually displaced >=0.20m toward robot with measured tool-cube contact; tool released and static within 0.06m of return target; no cube grasp","max_steps":600,"pilot_seeds":[240000,240023],"config_rule":"episode_index modulo 3"},
+ "budget":{"max_pilot_episodes_per_version_per_family":24,"max_versions_before_report":3,"training_allowed":false},
+ "limitations":["T1 new regrasp orientation paths must be validated before family approval","T2 return-only is allowed by protocol but future task changes and multiple useful paths still need validation","No frozen train/test composition split yet; belongs to M2 after M1 acceptance"]
+}

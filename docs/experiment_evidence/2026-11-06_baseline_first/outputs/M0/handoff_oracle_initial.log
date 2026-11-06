@@ -1,0 +1,5 @@
+[33;1m2026-11-06 06:50:30,000 - mani_skill  - WARNING - mani_skill is not installed with git.[0m
+{'seed': 200000, 'stage': 4, 'complete_success': True, 'error': '', 'walltime_seconds': 0.916}
+{'seed': 200001, 'stage': 4, 'complete_success': True, 'error': '', 'walltime_seconds': 1.092}
+{'seed': 200002, 'stage': 4, 'complete_success': True, 'error': '', 'walltime_seconds': 1.06}
+Verified success flags 3/3; inspect video and failure logs before using data.

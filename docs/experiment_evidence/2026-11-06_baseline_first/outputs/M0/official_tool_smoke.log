@@ -1,0 +1,14 @@
+[33;1m2026-11-06 06:51:02,556 - mani_skill  - WARNING - No initial pose set for articulation builder of panda, setting to default pose q=[1,0,0,0], p=[0,0,0]. There may be simulation issues/bugs if this articulation at it's initial pose collides with other objects at their initial poses.[0m
+[33;1m2026-11-06 06:51:02,582 - mani_skill  - WARNING - No initial pose set for actor builder of cube, setting to default pose q=[1,0,0,0], p=[0,0,0]. Not setting reasonable initial poses may slow down simulation, see https://github.com/haosulab/ManiSkill/issues/421.[0m
+[33;1m2026-11-06 06:51:02,582 - mani_skill  - WARNING - No initial pose set for actor builder of l_shape_tool, setting to default pose q=[1,0,0,0], p=[0,0,0]. Not setting reasonable initial poses may slow down simulation, see https://github.com/haosulab/ManiSkill/issues/421.[0m
+[33;1m2026-11-06 06:51:02,656 - mani_skill  - WARNING - mani_skill is not installed with git.[0m
+Motion Planning Running on PullCubeTool-v1
+
+proc_id: 0:   0%|          | 0/3 [00:00<?, ?it/s]
+proc_id: 0:  33%|███▎      | 1/3 [00:01<00:02,  1.11s/it]
+proc_id: 0:  33%|███▎      | 1/3 [00:01<00:02,  1.11s/it, success_rate=1, failed_motion_plan_rate=0, avg_episode_length=234, max_episode_length=234]
+proc_id: 0:  67%|██████▋   | 2/3 [00:02<00:01,  1.10s/it, success_rate=1, failed_motion_plan_rate=0, avg_episode_length=234, max_episode_length=234]
+proc_id: 0:  67%|██████▋   | 2/3 [00:02<00:01,  1.10s/it, success_rate=1, failed_motion_plan_rate=0, avg_episode_length=244, max_episode_length=254]
+proc_id: 0: 100%|██████████| 3/3 [00:03<00:00,  1.12s/it, success_rate=1, failed_motion_plan_rate=0, avg_episode_length=244, max_episode_length=254]
+proc_id: 0: 100%|██████████| 3/3 [00:03<00:00,  1.12s/it, success_rate=1, failed_motion_plan_rate=0, avg_episode_length=248, max_episode_length=257]
+proc_id: 0: 100%|██████████| 3/3 [00:03<00:00,  1.13s/it, success_rate=1, failed_motion_plan_rate=0, avg_episode_length=248, max_episode_length=257]

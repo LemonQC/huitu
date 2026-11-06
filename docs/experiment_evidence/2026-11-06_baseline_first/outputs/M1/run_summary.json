@@ -1,0 +1,336 @@
+[
+  {
+    "run_id": "T1_v1_pilot24",
+    "n": 24,
+    "success": 23,
+    "wilson95": [
+      0.7975819352134471,
+      0.9926065438344941
+    ],
+    "independent_initial_states": 24,
+    "status": "DEV_ONLY",
+    "by_config": {
+      "0": {
+        "n": 8,
+        "success": 8
+      },
+      "1": {
+        "n": 8,
+        "success": 8
+      },
+      "2": {
+        "n": 8,
+        "success": 7
+      }
+    }
+  },
+  {
+    "run_id": "T1_v1_smoke",
+    "n": 3,
+    "success": 3,
+    "wilson95": [
+      0.4385029682449681,
+      1.0
+    ],
+    "independent_initial_states": 3,
+    "status": "DEV_ONLY",
+    "by_config": {
+      "0": {
+        "n": 1,
+        "success": 1
+      },
+      "1": {
+        "n": 1,
+        "success": 1
+      },
+      "2": {
+        "n": 1,
+        "success": 1
+      }
+    }
+  },
+  {
+    "run_id": "T2_v1_controller_fixed",
+    "n": 3,
+    "success": 0,
+    "wilson95": [
+      0.0,
+      0.561497031755032
+    ],
+    "independent_initial_states": 3,
+    "status": "DEV_ONLY",
+    "by_config": {
+      "0": {
+        "n": 1,
+        "success": 0
+      },
+      "1": {
+        "n": 1,
+        "success": 0
+      },
+      "2": {
+        "n": 1,
+        "success": 0
+      }
+    }
+  },
+  {
+    "run_id": "T2_v1_smoke",
+    "n": 3,
+    "success": 0,
+    "wilson95": [
+      0.0,
+      0.561497031755032
+    ],
+    "independent_initial_states": 3,
+    "status": "DEV_ONLY",
+    "by_config": {
+      "0": {
+        "n": 1,
+        "success": 0
+      },
+      "1": {
+        "n": 1,
+        "success": 0
+      },
+      "2": {
+        "n": 1,
+        "success": 0
+      }
+    }
+  },
+  {
+    "run_id": "T2_v2_pilot24",
+    "n": 24,
+    "success": 19,
+    "wilson95": [
+      0.5952954674681193,
+      0.9075517464714794
+    ],
+    "independent_initial_states": 24,
+    "status": "DEV_ONLY",
+    "by_config": {
+      "0": {
+        "n": 8,
+        "success": 7
+      },
+      "1": {
+        "n": 8,
+        "success": 6
+      },
+      "2": {
+        "n": 8,
+        "success": 6
+      }
+    }
+  },
+  {
+    "run_id": "T2_v2_smoke",
+    "n": 3,
+    "success": 3,
+    "wilson95": [
+      0.4385029682449681,
+      1.0
+    ],
+    "independent_initial_states": 3,
+    "status": "DEV_ONLY",
+    "by_config": {
+      "0": {
+        "n": 1,
+        "success": 1
+      },
+      "1": {
+        "n": 1,
+        "success": 1
+      },
+      "2": {
+        "n": 1,
+        "success": 1
+      }
+    }
+  },
+  {
+    "run_id": "T2_v3_budgeted24",
+    "n": 22,
+    "success": 12,
+    "wilson95": [
+      0.3465979532073542,
+      0.7307970581918626
+    ],
+    "independent_initial_states": 22,
+    "status": "INVALID_BUDGET_OR_INTERRUPTED",
+    "by_config": {
+      "0": {
+        "n": 8,
+        "success": 3
+      },
+      "1": {
+        "n": 7,
+        "success": 5
+      },
+      "2": {
+        "n": 7,
+        "success": 4
+      }
+    }
+  },
+  {
+    "run_id": "T2_v3_frame_fixed_smoke",
+    "n": 3,
+    "success": 2,
+    "wilson95": [
+      0.20765960080205476,
+      0.9385080552796012
+    ],
+    "independent_initial_states": 3,
+    "status": "DEV_ONLY",
+    "by_config": {
+      "0": {
+        "n": 1,
+        "success": 1
+      },
+      "1": {
+        "n": 1,
+        "success": 0
+      },
+      "2": {
+        "n": 1,
+        "success": 1
+      }
+    }
+  },
+  {
+    "run_id": "T2_v3_grasp_fixed_smoke",
+    "n": 3,
+    "success": 0,
+    "wilson95": [
+      0.0,
+      0.561497031755032
+    ],
+    "independent_initial_states": 3,
+    "status": "INVALID_BUDGET_OR_INTERRUPTED",
+    "by_config": {
+      "0": {
+        "n": 1,
+        "success": 0
+      },
+      "1": {
+        "n": 1,
+        "success": 0
+      },
+      "2": {
+        "n": 1,
+        "success": 0
+      }
+    }
+  },
+  {
+    "run_id": "T2_v3_pilot24",
+    "n": 10,
+    "success": 5,
+    "wilson95": [
+      0.23659309051256927,
+      0.7634069094874307
+    ],
+    "independent_initial_states": 10,
+    "status": "INVALID_BUDGET_OR_INTERRUPTED",
+    "by_config": {
+      "0": {
+        "n": 4,
+        "success": 2
+      },
+      "1": {
+        "n": 3,
+        "success": 2
+      },
+      "2": {
+        "n": 3,
+        "success": 1
+      }
+    }
+  },
+  {
+    "run_id": "T2_v3_smoke",
+    "n": 3,
+    "success": 0,
+    "wilson95": [
+      0.0,
+      0.561497031755032
+    ],
+    "independent_initial_states": 3,
+    "status": "DEV_ONLY",
+    "by_config": {
+      "0": {
+        "n": 1,
+        "success": 0
+      },
+      "1": {
+        "n": 1,
+        "success": 0
+      },
+      "2": {
+        "n": 1,
+        "success": 0
+      }
+    }
+  },
+  {
+    "run_id": "T2_v3_strict_smoke",
+    "n": 3,
+    "success": 1,
+    "wilson95": [
+      0.061491944720398706,
+      0.7923403991979452
+    ],
+    "independent_initial_states": 3,
+    "status": "DEV_ONLY",
+    "by_config": {
+      "0": {
+        "n": 1,
+        "success": 1
+      },
+      "1": {
+        "n": 1,
+        "success": 0
+      },
+      "2": {
+        "n": 1,
+        "success": 0
+      }
+    }
+  },
+  {
+    "run_id": "audit_smoke",
+    "n": 2,
+    "success": 2,
+    "wilson95": [
+      0.34238022750666547,
+      1.0
+    ],
+    "independent_initial_states": 2,
+    "status": "DEV_ONLY",
+    "by_config": {
+      "": {
+        "n": 2,
+        "success": 2
+      }
+    }
+  },
+  {
+    "run_id": "pilot20",
+    "n": 20,
+    "success": 19,
+    "wilson95": [
+      0.7638688065532648,
+      0.9911185511992042
+    ],
+    "independent_initial_states": 20,
+    "status": "DEV_ONLY",
+    "by_config": {
+      "": {
+        "n": 20,
+        "success": 19
+      }
+    }
+  }
+]

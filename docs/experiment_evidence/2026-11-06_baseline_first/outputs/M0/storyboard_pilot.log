@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/users/lemon/TRO/skill_composition/scripts/video_storyboard.py", line 6, in <module>
+    r=iio.get_reader(a.video);frames=list(r);idx=[int((len(frames)-1)*x/7) for x in range(8)]
+MemoryError

@@ -1,0 +1,1265 @@
+{
+  "status": "PARTIAL; actor guards and state invariants only",
+  "episodes": [
+    {
+      "run_id": "T1_v1_pilot24",
+      "episode_id": "0",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T1_v1_pilot24",
+      "episode_id": "1",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T1_v1_pilot24",
+      "episode_id": "2",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T1_v1_pilot24",
+      "episode_id": "3",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T1_v1_pilot24",
+      "episode_id": "4",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T1_v1_pilot24",
+      "episode_id": "5",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T1_v1_pilot24",
+      "episode_id": "6",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T1_v1_pilot24",
+      "episode_id": "7",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T1_v1_pilot24",
+      "episode_id": "8",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T1_v1_pilot24",
+      "episode_id": "9",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T1_v1_pilot24",
+      "episode_id": "10",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T1_v1_pilot24",
+      "episode_id": "11",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T1_v1_pilot24",
+      "episode_id": "12",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T1_v1_pilot24",
+      "episode_id": "13",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T1_v1_pilot24",
+      "episode_id": "14",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T1_v1_pilot24",
+      "episode_id": "15",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T1_v1_pilot24",
+      "episode_id": "16",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T1_v1_pilot24",
+      "episode_id": "17",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T1_v1_pilot24",
+      "episode_id": "18",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T1_v1_pilot24",
+      "episode_id": "19",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T1_v1_pilot24",
+      "episode_id": "20",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T1_v1_pilot24",
+      "episode_id": "21",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T1_v1_pilot24",
+      "episode_id": "22",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T1_v1_pilot24",
+      "episode_id": "23",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": false,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T1_v1_smoke",
+      "episode_id": "0",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T1_v1_smoke",
+      "episode_id": "1",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T1_v1_smoke",
+      "episode_id": "2",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v1_controller_fixed",
+      "episode_id": "0",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v1_controller_fixed",
+      "episode_id": "1",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v1_controller_fixed",
+      "episode_id": "2",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v1_smoke",
+      "episode_id": "0",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v1_smoke",
+      "episode_id": "1",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v1_smoke",
+      "episode_id": "2",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v2_pilot24",
+      "episode_id": "0",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v2_pilot24",
+      "episode_id": "1",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v2_pilot24",
+      "episode_id": "2",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v2_pilot24",
+      "episode_id": "3",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v2_pilot24",
+      "episode_id": "4",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v2_pilot24",
+      "episode_id": "5",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v2_pilot24",
+      "episode_id": "6",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v2_pilot24",
+      "episode_id": "7",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v2_pilot24",
+      "episode_id": "8",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v2_pilot24",
+      "episode_id": "9",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v2_pilot24",
+      "episode_id": "10",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v2_pilot24",
+      "episode_id": "11",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v2_pilot24",
+      "episode_id": "12",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v2_pilot24",
+      "episode_id": "13",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v2_pilot24",
+      "episode_id": "14",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v2_pilot24",
+      "episode_id": "15",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v2_pilot24",
+      "episode_id": "16",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v2_pilot24",
+      "episode_id": "17",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v2_pilot24",
+      "episode_id": "18",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v2_pilot24",
+      "episode_id": "19",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v2_pilot24",
+      "episode_id": "20",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v2_pilot24",
+      "episode_id": "21",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v2_pilot24",
+      "episode_id": "22",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v2_pilot24",
+      "episode_id": "23",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v2_smoke",
+      "episode_id": "0",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v2_smoke",
+      "episode_id": "1",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v2_smoke",
+      "episode_id": "2",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v3_budgeted24",
+      "episode_id": "0",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v3_budgeted24",
+      "episode_id": "1",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": false,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v3_budgeted24",
+      "episode_id": "2",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v3_budgeted24",
+      "episode_id": "3",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": false,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v3_budgeted24",
+      "episode_id": "4",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v3_budgeted24",
+      "episode_id": "5",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v3_budgeted24",
+      "episode_id": "6",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": false,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v3_budgeted24",
+      "episode_id": "7",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": false,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v3_budgeted24",
+      "episode_id": "8",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": false,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v3_budgeted24",
+      "episode_id": "9",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v3_budgeted24",
+      "episode_id": "10",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": false,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v3_budgeted24",
+      "episode_id": "11",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v3_budgeted24",
+      "episode_id": "12",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": false,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v3_budgeted24",
+      "episode_id": "13",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v3_budgeted24",
+      "episode_id": "14",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v3_budgeted24",
+      "episode_id": "15",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": false,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v3_budgeted24",
+      "episode_id": "16",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": false,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v3_budgeted24",
+      "episode_id": "17",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v3_budgeted24",
+      "episode_id": "18",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": false,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v3_budgeted24",
+      "episode_id": "19",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": false,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v3_budgeted24",
+      "episode_id": "20",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v3_budgeted24",
+      "episode_id": "21",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v3_frame_fixed_smoke",
+      "episode_id": "0",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v3_frame_fixed_smoke",
+      "episode_id": "1",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v3_frame_fixed_smoke",
+      "episode_id": "2",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v3_grasp_fixed_smoke",
+      "episode_id": "0",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": false,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v3_grasp_fixed_smoke",
+      "episode_id": "1",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v3_grasp_fixed_smoke",
+      "episode_id": "2",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v3_pilot24",
+      "episode_id": "0",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v3_pilot24",
+      "episode_id": "1",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": false,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v3_pilot24",
+      "episode_id": "2",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v3_pilot24",
+      "episode_id": "3",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": false,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v3_pilot24",
+      "episode_id": "4",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v3_pilot24",
+      "episode_id": "5",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v3_pilot24",
+      "episode_id": "6",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": false,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v3_pilot24",
+      "episode_id": "7",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": false,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v3_pilot24",
+      "episode_id": "8",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": false,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v3_pilot24",
+      "episode_id": "9",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v3_smoke",
+      "episode_id": "0",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v3_smoke",
+      "episode_id": "1",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v3_smoke",
+      "episode_id": "2",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v3_strict_smoke",
+      "episode_id": "0",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v3_strict_smoke",
+      "episode_id": "1",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "T2_v3_strict_smoke",
+      "episode_id": "2",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": null,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "audit_smoke",
+      "episode_id": "0",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "audit_smoke",
+      "episode_id": "1",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "pilot20",
+      "episode_id": "0",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "pilot20",
+      "episode_id": "1",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "pilot20",
+      "episode_id": "2",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "pilot20",
+      "episode_id": "3",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "pilot20",
+      "episode_id": "4",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "pilot20",
+      "episode_id": "5",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "pilot20",
+      "episode_id": "6",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "pilot20",
+      "episode_id": "7",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "pilot20",
+      "episode_id": "8",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "pilot20",
+      "episode_id": "9",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "pilot20",
+      "episode_id": "10",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "pilot20",
+      "episode_id": "11",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "pilot20",
+      "episode_id": "12",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "pilot20",
+      "episode_id": "13",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "pilot20",
+      "episode_id": "14",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "pilot20",
+      "episode_id": "15",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "pilot20",
+      "episode_id": "16",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "pilot20",
+      "episode_id": "17",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": false,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "pilot20",
+      "episode_id": "18",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    },
+    {
+      "run_id": "pilot20",
+      "episode_id": "19",
+      "hash_ok": true,
+      "reset_count": 1,
+      "within_budget": true,
+      "final_stack_geometry_static": true,
+      "actor_teleport_guard": "True",
+      "robot_teleport_guard": "NOT_INSTRUMENTED; source inspection only"
+    }
+  ]
+}

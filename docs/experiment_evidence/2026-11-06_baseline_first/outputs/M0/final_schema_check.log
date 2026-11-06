@@ -1,0 +1,4 @@
+Episodes: 126 Unique physical initial states: 70
+Method rows: {'B01_ORACLE_ENGINEERING': 126}
+Splits: {'engineering_dev': 126}
+PASS: structure and obvious ID conflicts only (not an accuracy/validity check)

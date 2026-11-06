@@ -1,0 +1,18 @@
+{'name': 'stap', 'repo': 'agiachris/STAP', 'commit': '0fe0dcbd5ede5ce4ee3d952642f70b5550a0813c', 'download_url': 'https://codeload.github.com/agiachris/STAP/zip/0fe0dcbd5ede5ce4ee3d952642f70b5550a0813c', 'sha256': '6253ddc0b99e672520d198f5b6dd0885882202eb59852cd3391f5f115e8c58e0', 'status': 'DOWNLOADED_NOT_RUN'}
+{'name': 'gsc', 'repo': 'generative-skill-chaining/gsc-code', 'commit': 'b8f5bc0d44bd453827f3f254ca1b03ec049849c5', 'download_url': 'https://codeload.github.com/generative-skill-chaining/gsc-code/zip/b8f5bc0d44bd453827f3f254ca1b03ec049849c5', 'sha256': 'c117305edcbcf42599e434c18058c33b3278daf69e6fa97a2b3af08a894dd8d2', 'status': 'DOWNLOADED_NOT_RUN'}
+Traceback (most recent call last):
+  File "/home/users/lemon/TRO/skill_composition/scripts/fetch_references.py", line 11, in <module>
+    blob=urllib.request.urlopen(url,timeout=60).read();(out/(name+'.zip')).write_bytes(blob)
+  File "/home/users/lemon/TRO/.conda/tro-baseline/lib/python3.10/http/client.py", line 475, in read
+    return self._read_chunked(amt)
+  File "/home/users/lemon/TRO/.conda/tro-baseline/lib/python3.10/http/client.py", line 616, in _read_chunked
+    value.append(self._safe_read(chunk_left))
+  File "/home/users/lemon/TRO/.conda/tro-baseline/lib/python3.10/http/client.py", line 656, in _safe_read
+    data = self.fp.read(cursize)
+  File "/home/users/lemon/TRO/.conda/tro-baseline/lib/python3.10/socket.py", line 717, in readinto
+    return self._sock.recv_into(b)
+  File "/home/users/lemon/TRO/.conda/tro-baseline/lib/python3.10/ssl.py", line 1320, in recv_into
+    return self.read(nbytes, buffer)
+  File "/home/users/lemon/TRO/.conda/tro-baseline/lib/python3.10/ssl.py", line 1176, in read
+    return self._sslobj.read(len, buffer)
+KeyboardInterrupt

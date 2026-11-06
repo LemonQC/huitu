@@ -1,0 +1,4 @@
+[33;1m2026-11-06 06:51:32,767 - mani_skill  - WARNING - mani_skill is not installed with git.[0m
+{'episode_id': 0, 'seed': 210000, 'init_state_id': 'pilot_210000', 'init_state_sha256': '08887f477d781cf2d6942af3b1a51c50cccb4b25e74533eb9b51565b78827c2f', 'success': True, 'stage': 4, 'steps': 276, 'reset_count': 1, 'teleport_guard': True, 'seconds': 1.031059694942087, 'trajectory_path': 'episode_0.json', 'video_path': '0.mp4'} 
+{'episode_id': 1, 'seed': 210001, 'init_state_id': 'pilot_210001', 'init_state_sha256': '4575ed2753050864d23884285805e2d587ea007a784c715c4b1bca73a99f6b0f', 'success': True, 'stage': 4, 'steps': 273, 'reset_count': 1, 'teleport_guard': True, 'seconds': 1.2114370479248464, 'trajectory_path': 'episode_1.json', 'video_path': '1.mp4'} 
+success 2 / 2

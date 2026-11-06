@@ -1,0 +1,3 @@
+{'seed': 150000, 'steps': 30, 'stage': 0, 'success': 0, 'identity': 'RANDOM_SMOKE'}
+{'seed': 150001, 'steps': 30, 'stage': 0, 'success': 0, 'identity': 'RANDOM_SMOKE'}
+Scene check finished. DO NOT claim this environment has a verified successful oracle.

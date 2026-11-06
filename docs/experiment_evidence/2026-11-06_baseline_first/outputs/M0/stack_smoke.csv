@@ -1,0 +1,3 @@
+reset_seed,steps,stage_pick,stage_transport,stage_stack,complete_success,simulator_done,events,last_state,method,identity,task
+100000,20,0,0,0,0,0,,"{'cube_a_xyz': [-0.05460000038146973, 0.015399999916553497, 0.019999999552965164], 'cube_b_xyz': [0.02280000038444996, 0.12880000472068787, 0.019999999552965164], 'grasped': False}",random,PROXY,StackCube-Pilot
+100001,20,0,0,0,0,0,,"{'cube_a_xyz': [0.05550000071525574, -0.179299995303154, 0.019999999552965164], 'cube_b_xyz': [0.08630000054836273, 0.02669999934732914, 0.019999999552965164], 'grasped': False}",random,PROXY,StackCube-Pilot

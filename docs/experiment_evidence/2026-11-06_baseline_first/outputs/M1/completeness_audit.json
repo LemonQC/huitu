@@ -1,0 +1,4109 @@
+{
+  "h5": [
+    {
+      "file": "outputs/M0/official_stack/StackCube-v1/motionplanning/20261106_064927.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 107,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              108
+            ],
+            [
+              "actors/cubeB",
+              108
+            ],
+            [
+              "actors/table-workspace",
+              108
+            ],
+            [
+              "articulations/panda_wristcam",
+              108
+            ]
+          ],
+          "state_length_ok": true
+        },
+        {
+          "key": "traj_1",
+          "actions": 94,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              95
+            ],
+            [
+              "actors/cubeB",
+              95
+            ],
+            [
+              "actors/table-workspace",
+              95
+            ],
+            [
+              "articulations/panda_wristcam",
+              95
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T1_v1_pilot24/episode_0/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 265,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              266
+            ],
+            [
+              "actors/cubeB",
+              266
+            ],
+            [
+              "actors/stage_marker",
+              266
+            ],
+            [
+              "actors/table-workspace",
+              266
+            ],
+            [
+              "articulations/panda",
+              266
+            ],
+            [
+              "task_stage_id",
+              266
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T1_v1_pilot24/episode_1/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 311,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              312
+            ],
+            [
+              "actors/cubeB",
+              312
+            ],
+            [
+              "actors/stage_marker",
+              312
+            ],
+            [
+              "actors/table-workspace",
+              312
+            ],
+            [
+              "articulations/panda",
+              312
+            ],
+            [
+              "task_stage_id",
+              312
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T1_v1_pilot24/episode_10/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 309,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              310
+            ],
+            [
+              "actors/cubeB",
+              310
+            ],
+            [
+              "actors/stage_marker",
+              310
+            ],
+            [
+              "actors/table-workspace",
+              310
+            ],
+            [
+              "articulations/panda",
+              310
+            ],
+            [
+              "task_stage_id",
+              310
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T1_v1_pilot24/episode_11/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 271,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              272
+            ],
+            [
+              "actors/cubeB",
+              272
+            ],
+            [
+              "actors/stage_marker",
+              272
+            ],
+            [
+              "actors/table-workspace",
+              272
+            ],
+            [
+              "articulations/panda",
+              272
+            ],
+            [
+              "task_stage_id",
+              272
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T1_v1_pilot24/episode_12/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 264,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              265
+            ],
+            [
+              "actors/cubeB",
+              265
+            ],
+            [
+              "actors/stage_marker",
+              265
+            ],
+            [
+              "actors/table-workspace",
+              265
+            ],
+            [
+              "articulations/panda",
+              265
+            ],
+            [
+              "task_stage_id",
+              265
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T1_v1_pilot24/episode_13/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 306,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              307
+            ],
+            [
+              "actors/cubeB",
+              307
+            ],
+            [
+              "actors/stage_marker",
+              307
+            ],
+            [
+              "actors/table-workspace",
+              307
+            ],
+            [
+              "articulations/panda",
+              307
+            ],
+            [
+              "task_stage_id",
+              307
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T1_v1_pilot24/episode_14/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 271,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              272
+            ],
+            [
+              "actors/cubeB",
+              272
+            ],
+            [
+              "actors/stage_marker",
+              272
+            ],
+            [
+              "actors/table-workspace",
+              272
+            ],
+            [
+              "articulations/panda",
+              272
+            ],
+            [
+              "task_stage_id",
+              272
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T1_v1_pilot24/episode_15/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 272,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              273
+            ],
+            [
+              "actors/cubeB",
+              273
+            ],
+            [
+              "actors/stage_marker",
+              273
+            ],
+            [
+              "actors/table-workspace",
+              273
+            ],
+            [
+              "articulations/panda",
+              273
+            ],
+            [
+              "task_stage_id",
+              273
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T1_v1_pilot24/episode_16/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 312,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              313
+            ],
+            [
+              "actors/cubeB",
+              313
+            ],
+            [
+              "actors/stage_marker",
+              313
+            ],
+            [
+              "actors/table-workspace",
+              313
+            ],
+            [
+              "articulations/panda",
+              313
+            ],
+            [
+              "task_stage_id",
+              313
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T1_v1_pilot24/episode_17/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 277,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              278
+            ],
+            [
+              "actors/cubeB",
+              278
+            ],
+            [
+              "actors/stage_marker",
+              278
+            ],
+            [
+              "actors/table-workspace",
+              278
+            ],
+            [
+              "articulations/panda",
+              278
+            ],
+            [
+              "task_stage_id",
+              278
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T1_v1_pilot24/episode_18/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 272,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              273
+            ],
+            [
+              "actors/cubeB",
+              273
+            ],
+            [
+              "actors/stage_marker",
+              273
+            ],
+            [
+              "actors/table-workspace",
+              273
+            ],
+            [
+              "articulations/panda",
+              273
+            ],
+            [
+              "task_stage_id",
+              273
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T1_v1_pilot24/episode_19/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 313,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              314
+            ],
+            [
+              "actors/cubeB",
+              314
+            ],
+            [
+              "actors/stage_marker",
+              314
+            ],
+            [
+              "actors/table-workspace",
+              314
+            ],
+            [
+              "articulations/panda",
+              314
+            ],
+            [
+              "task_stage_id",
+              314
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T1_v1_pilot24/episode_2/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 279,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              280
+            ],
+            [
+              "actors/cubeB",
+              280
+            ],
+            [
+              "actors/stage_marker",
+              280
+            ],
+            [
+              "actors/table-workspace",
+              280
+            ],
+            [
+              "articulations/panda",
+              280
+            ],
+            [
+              "task_stage_id",
+              280
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T1_v1_pilot24/episode_20/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 264,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              265
+            ],
+            [
+              "actors/cubeB",
+              265
+            ],
+            [
+              "actors/stage_marker",
+              265
+            ],
+            [
+              "actors/table-workspace",
+              265
+            ],
+            [
+              "articulations/panda",
+              265
+            ],
+            [
+              "task_stage_id",
+              265
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T1_v1_pilot24/episode_21/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 267,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              268
+            ],
+            [
+              "actors/cubeB",
+              268
+            ],
+            [
+              "actors/stage_marker",
+              268
+            ],
+            [
+              "actors/table-workspace",
+              268
+            ],
+            [
+              "articulations/panda",
+              268
+            ],
+            [
+              "task_stage_id",
+              268
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T1_v1_pilot24/episode_22/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 309,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              310
+            ],
+            [
+              "actors/cubeB",
+              310
+            ],
+            [
+              "actors/stage_marker",
+              310
+            ],
+            [
+              "actors/table-workspace",
+              310
+            ],
+            [
+              "articulations/panda",
+              310
+            ],
+            [
+              "task_stage_id",
+              310
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T1_v1_pilot24/episode_23/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 84,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              85
+            ],
+            [
+              "actors/cubeB",
+              85
+            ],
+            [
+              "actors/stage_marker",
+              85
+            ],
+            [
+              "actors/table-workspace",
+              85
+            ],
+            [
+              "articulations/panda",
+              85
+            ],
+            [
+              "task_stage_id",
+              85
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T1_v1_pilot24/episode_3/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 267,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              268
+            ],
+            [
+              "actors/cubeB",
+              268
+            ],
+            [
+              "actors/stage_marker",
+              268
+            ],
+            [
+              "actors/table-workspace",
+              268
+            ],
+            [
+              "articulations/panda",
+              268
+            ],
+            [
+              "task_stage_id",
+              268
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T1_v1_pilot24/episode_4/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 304,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              305
+            ],
+            [
+              "actors/cubeB",
+              305
+            ],
+            [
+              "actors/stage_marker",
+              305
+            ],
+            [
+              "actors/table-workspace",
+              305
+            ],
+            [
+              "articulations/panda",
+              305
+            ],
+            [
+              "task_stage_id",
+              305
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T1_v1_pilot24/episode_5/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 259,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              260
+            ],
+            [
+              "actors/cubeB",
+              260
+            ],
+            [
+              "actors/stage_marker",
+              260
+            ],
+            [
+              "actors/table-workspace",
+              260
+            ],
+            [
+              "articulations/panda",
+              260
+            ],
+            [
+              "task_stage_id",
+              260
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T1_v1_pilot24/episode_6/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 265,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              266
+            ],
+            [
+              "actors/cubeB",
+              266
+            ],
+            [
+              "actors/stage_marker",
+              266
+            ],
+            [
+              "actors/table-workspace",
+              266
+            ],
+            [
+              "articulations/panda",
+              266
+            ],
+            [
+              "task_stage_id",
+              266
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T1_v1_pilot24/episode_7/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 306,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              307
+            ],
+            [
+              "actors/cubeB",
+              307
+            ],
+            [
+              "actors/stage_marker",
+              307
+            ],
+            [
+              "actors/table-workspace",
+              307
+            ],
+            [
+              "articulations/panda",
+              307
+            ],
+            [
+              "task_stage_id",
+              307
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T1_v1_pilot24/episode_8/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 272,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              273
+            ],
+            [
+              "actors/cubeB",
+              273
+            ],
+            [
+              "actors/stage_marker",
+              273
+            ],
+            [
+              "actors/table-workspace",
+              273
+            ],
+            [
+              "articulations/panda",
+              273
+            ],
+            [
+              "task_stage_id",
+              273
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T1_v1_pilot24/episode_9/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 270,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              271
+            ],
+            [
+              "actors/cubeB",
+              271
+            ],
+            [
+              "actors/stage_marker",
+              271
+            ],
+            [
+              "actors/table-workspace",
+              271
+            ],
+            [
+              "articulations/panda",
+              271
+            ],
+            [
+              "task_stage_id",
+              271
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T1_v1_smoke/episode_0/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 265,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              266
+            ],
+            [
+              "actors/cubeB",
+              266
+            ],
+            [
+              "actors/stage_marker",
+              266
+            ],
+            [
+              "actors/table-workspace",
+              266
+            ],
+            [
+              "articulations/panda",
+              266
+            ],
+            [
+              "task_stage_id",
+              266
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T1_v1_smoke/episode_1/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 311,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              312
+            ],
+            [
+              "actors/cubeB",
+              312
+            ],
+            [
+              "actors/stage_marker",
+              312
+            ],
+            [
+              "actors/table-workspace",
+              312
+            ],
+            [
+              "articulations/panda",
+              312
+            ],
+            [
+              "task_stage_id",
+              312
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T1_v1_smoke/episode_2/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 279,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              280
+            ],
+            [
+              "actors/cubeB",
+              280
+            ],
+            [
+              "actors/stage_marker",
+              280
+            ],
+            [
+              "actors/table-workspace",
+              280
+            ],
+            [
+              "articulations/panda",
+              280
+            ],
+            [
+              "task_stage_id",
+              280
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v1_controller_fixed/episode_0/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 394,
+          "state_lengths": [
+            [
+              "actors/cube",
+              395
+            ],
+            [
+              "actors/l_shape_tool",
+              395
+            ],
+            [
+              "actors/table-workspace",
+              395
+            ],
+            [
+              "articulations/panda",
+              395
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v1_controller_fixed/episode_1/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 368,
+          "state_lengths": [
+            [
+              "actors/cube",
+              369
+            ],
+            [
+              "actors/l_shape_tool",
+              369
+            ],
+            [
+              "actors/table-workspace",
+              369
+            ],
+            [
+              "articulations/panda",
+              369
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v1_controller_fixed/episode_2/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 327,
+          "state_lengths": [
+            [
+              "actors/cube",
+              328
+            ],
+            [
+              "actors/l_shape_tool",
+              328
+            ],
+            [
+              "actors/table-workspace",
+              328
+            ],
+            [
+              "articulations/panda",
+              328
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v1_smoke/episode_0/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 354,
+          "state_lengths": [
+            [
+              "actors/cube",
+              355
+            ],
+            [
+              "actors/l_shape_tool",
+              355
+            ],
+            [
+              "actors/table-workspace",
+              355
+            ],
+            [
+              "articulations/panda",
+              355
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v1_smoke/episode_1/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 323,
+          "state_lengths": [
+            [
+              "actors/cube",
+              324
+            ],
+            [
+              "actors/l_shape_tool",
+              324
+            ],
+            [
+              "actors/table-workspace",
+              324
+            ],
+            [
+              "articulations/panda",
+              324
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v1_smoke/episode_2/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 333,
+          "state_lengths": [
+            [
+              "actors/cube",
+              334
+            ],
+            [
+              "actors/l_shape_tool",
+              334
+            ],
+            [
+              "actors/table-workspace",
+              334
+            ],
+            [
+              "articulations/panda",
+              334
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v2_pilot24/episode_0/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 394,
+          "state_lengths": [
+            [
+              "actors/cube",
+              395
+            ],
+            [
+              "actors/l_shape_tool",
+              395
+            ],
+            [
+              "actors/table-workspace",
+              395
+            ],
+            [
+              "articulations/panda",
+              395
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v2_pilot24/episode_1/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 368,
+          "state_lengths": [
+            [
+              "actors/cube",
+              369
+            ],
+            [
+              "actors/l_shape_tool",
+              369
+            ],
+            [
+              "actors/table-workspace",
+              369
+            ],
+            [
+              "articulations/panda",
+              369
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v2_pilot24/episode_10/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 365,
+          "state_lengths": [
+            [
+              "actors/cube",
+              366
+            ],
+            [
+              "actors/l_shape_tool",
+              366
+            ],
+            [
+              "actors/table-workspace",
+              366
+            ],
+            [
+              "articulations/panda",
+              366
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v2_pilot24/episode_11/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 384,
+          "state_lengths": [
+            [
+              "actors/cube",
+              385
+            ],
+            [
+              "actors/l_shape_tool",
+              385
+            ],
+            [
+              "actors/table-workspace",
+              385
+            ],
+            [
+              "articulations/panda",
+              385
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v2_pilot24/episode_12/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 356,
+          "state_lengths": [
+            [
+              "actors/cube",
+              357
+            ],
+            [
+              "actors/l_shape_tool",
+              357
+            ],
+            [
+              "actors/table-workspace",
+              357
+            ],
+            [
+              "articulations/panda",
+              357
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v2_pilot24/episode_13/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 371,
+          "state_lengths": [
+            [
+              "actors/cube",
+              372
+            ],
+            [
+              "actors/l_shape_tool",
+              372
+            ],
+            [
+              "actors/table-workspace",
+              372
+            ],
+            [
+              "articulations/panda",
+              372
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v2_pilot24/episode_14/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 292,
+          "state_lengths": [
+            [
+              "actors/cube",
+              293
+            ],
+            [
+              "actors/l_shape_tool",
+              293
+            ],
+            [
+              "actors/table-workspace",
+              293
+            ],
+            [
+              "articulations/panda",
+              293
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v2_pilot24/episode_15/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 388,
+          "state_lengths": [
+            [
+              "actors/cube",
+              389
+            ],
+            [
+              "actors/l_shape_tool",
+              389
+            ],
+            [
+              "actors/table-workspace",
+              389
+            ],
+            [
+              "articulations/panda",
+              389
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v2_pilot24/episode_16/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 389,
+          "state_lengths": [
+            [
+              "actors/cube",
+              390
+            ],
+            [
+              "actors/l_shape_tool",
+              390
+            ],
+            [
+              "actors/table-workspace",
+              390
+            ],
+            [
+              "articulations/panda",
+              390
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v2_pilot24/episode_17/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 262,
+          "state_lengths": [
+            [
+              "actors/cube",
+              263
+            ],
+            [
+              "actors/l_shape_tool",
+              263
+            ],
+            [
+              "actors/table-workspace",
+              263
+            ],
+            [
+              "articulations/panda",
+              263
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v2_pilot24/episode_18/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 359,
+          "state_lengths": [
+            [
+              "actors/cube",
+              360
+            ],
+            [
+              "actors/l_shape_tool",
+              360
+            ],
+            [
+              "actors/table-workspace",
+              360
+            ],
+            [
+              "articulations/panda",
+              360
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v2_pilot24/episode_19/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 105,
+          "state_lengths": [
+            [
+              "actors/cube",
+              106
+            ],
+            [
+              "actors/l_shape_tool",
+              106
+            ],
+            [
+              "actors/table-workspace",
+              106
+            ],
+            [
+              "articulations/panda",
+              106
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v2_pilot24/episode_2/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 372,
+          "state_lengths": [
+            [
+              "actors/cube",
+              373
+            ],
+            [
+              "actors/l_shape_tool",
+              373
+            ],
+            [
+              "actors/table-workspace",
+              373
+            ],
+            [
+              "articulations/panda",
+              373
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v2_pilot24/episode_20/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 395,
+          "state_lengths": [
+            [
+              "actors/cube",
+              396
+            ],
+            [
+              "actors/l_shape_tool",
+              396
+            ],
+            [
+              "actors/table-workspace",
+              396
+            ],
+            [
+              "articulations/panda",
+              396
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v2_pilot24/episode_21/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 371,
+          "state_lengths": [
+            [
+              "actors/cube",
+              372
+            ],
+            [
+              "actors/l_shape_tool",
+              372
+            ],
+            [
+              "actors/table-workspace",
+              372
+            ],
+            [
+              "articulations/panda",
+              372
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v2_pilot24/episode_22/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 370,
+          "state_lengths": [
+            [
+              "actors/cube",
+              371
+            ],
+            [
+              "actors/l_shape_tool",
+              371
+            ],
+            [
+              "actors/table-workspace",
+              371
+            ],
+            [
+              "articulations/panda",
+              371
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v2_pilot24/episode_23/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 380,
+          "state_lengths": [
+            [
+              "actors/cube",
+              381
+            ],
+            [
+              "actors/l_shape_tool",
+              381
+            ],
+            [
+              "actors/table-workspace",
+              381
+            ],
+            [
+              "articulations/panda",
+              381
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v2_pilot24/episode_3/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 337,
+          "state_lengths": [
+            [
+              "actors/cube",
+              338
+            ],
+            [
+              "actors/l_shape_tool",
+              338
+            ],
+            [
+              "actors/table-workspace",
+              338
+            ],
+            [
+              "articulations/panda",
+              338
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v2_pilot24/episode_4/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 364,
+          "state_lengths": [
+            [
+              "actors/cube",
+              365
+            ],
+            [
+              "actors/l_shape_tool",
+              365
+            ],
+            [
+              "actors/table-workspace",
+              365
+            ],
+            [
+              "articulations/panda",
+              365
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v2_pilot24/episode_5/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 364,
+          "state_lengths": [
+            [
+              "actors/cube",
+              365
+            ],
+            [
+              "actors/l_shape_tool",
+              365
+            ],
+            [
+              "actors/table-workspace",
+              365
+            ],
+            [
+              "articulations/panda",
+              365
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v2_pilot24/episode_6/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 364,
+          "state_lengths": [
+            [
+              "actors/cube",
+              365
+            ],
+            [
+              "actors/l_shape_tool",
+              365
+            ],
+            [
+              "actors/table-workspace",
+              365
+            ],
+            [
+              "articulations/panda",
+              365
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v2_pilot24/episode_7/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 387,
+          "state_lengths": [
+            [
+              "actors/cube",
+              388
+            ],
+            [
+              "actors/l_shape_tool",
+              388
+            ],
+            [
+              "actors/table-workspace",
+              388
+            ],
+            [
+              "articulations/panda",
+              388
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v2_pilot24/episode_8/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 389,
+          "state_lengths": [
+            [
+              "actors/cube",
+              390
+            ],
+            [
+              "actors/l_shape_tool",
+              390
+            ],
+            [
+              "actors/table-workspace",
+              390
+            ],
+            [
+              "articulations/panda",
+              390
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v2_pilot24/episode_9/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 359,
+          "state_lengths": [
+            [
+              "actors/cube",
+              360
+            ],
+            [
+              "actors/l_shape_tool",
+              360
+            ],
+            [
+              "actors/table-workspace",
+              360
+            ],
+            [
+              "articulations/panda",
+              360
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v2_smoke/episode_0/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 394,
+          "state_lengths": [
+            [
+              "actors/cube",
+              395
+            ],
+            [
+              "actors/l_shape_tool",
+              395
+            ],
+            [
+              "actors/table-workspace",
+              395
+            ],
+            [
+              "articulations/panda",
+              395
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v2_smoke/episode_1/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 368,
+          "state_lengths": [
+            [
+              "actors/cube",
+              369
+            ],
+            [
+              "actors/l_shape_tool",
+              369
+            ],
+            [
+              "actors/table-workspace",
+              369
+            ],
+            [
+              "articulations/panda",
+              369
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v2_smoke/episode_2/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 372,
+          "state_lengths": [
+            [
+              "actors/cube",
+              373
+            ],
+            [
+              "actors/l_shape_tool",
+              373
+            ],
+            [
+              "actors/table-workspace",
+              373
+            ],
+            [
+              "articulations/panda",
+              373
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v3_budgeted24/episode_0/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 521,
+          "state_lengths": [
+            [
+              "actors/cube",
+              522
+            ],
+            [
+              "actors/l_shape_tool",
+              522
+            ],
+            [
+              "actors/table-workspace",
+              522
+            ],
+            [
+              "articulations/panda",
+              522
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v3_budgeted24/episode_1/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 791,
+          "state_lengths": [
+            [
+              "actors/cube",
+              792
+            ],
+            [
+              "actors/l_shape_tool",
+              792
+            ],
+            [
+              "actors/table-workspace",
+              792
+            ],
+            [
+              "articulations/panda",
+              792
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v3_budgeted24/episode_10/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 609,
+          "state_lengths": [
+            [
+              "actors/cube",
+              610
+            ],
+            [
+              "actors/l_shape_tool",
+              610
+            ],
+            [
+              "actors/table-workspace",
+              610
+            ],
+            [
+              "articulations/panda",
+              610
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v3_budgeted24/episode_11/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 526,
+          "state_lengths": [
+            [
+              "actors/cube",
+              527
+            ],
+            [
+              "actors/l_shape_tool",
+              527
+            ],
+            [
+              "actors/table-workspace",
+              527
+            ],
+            [
+              "articulations/panda",
+              527
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v3_budgeted24/episode_12/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 853,
+          "state_lengths": [
+            [
+              "actors/cube",
+              854
+            ],
+            [
+              "actors/l_shape_tool",
+              854
+            ],
+            [
+              "actors/table-workspace",
+              854
+            ],
+            [
+              "articulations/panda",
+              854
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v3_budgeted24/episode_13/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 121,
+          "state_lengths": [
+            [
+              "actors/cube",
+              122
+            ],
+            [
+              "actors/l_shape_tool",
+              122
+            ],
+            [
+              "actors/table-workspace",
+              122
+            ],
+            [
+              "articulations/panda",
+              122
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v3_budgeted24/episode_14/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 537,
+          "state_lengths": [
+            [
+              "actors/cube",
+              538
+            ],
+            [
+              "actors/l_shape_tool",
+              538
+            ],
+            [
+              "actors/table-workspace",
+              538
+            ],
+            [
+              "articulations/panda",
+              538
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v3_budgeted24/episode_15/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 652,
+          "state_lengths": [
+            [
+              "actors/cube",
+              653
+            ],
+            [
+              "actors/l_shape_tool",
+              653
+            ],
+            [
+              "actors/table-workspace",
+              653
+            ],
+            [
+              "articulations/panda",
+              653
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v3_budgeted24/episode_16/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 608,
+          "state_lengths": [
+            [
+              "actors/cube",
+              609
+            ],
+            [
+              "actors/l_shape_tool",
+              609
+            ],
+            [
+              "actors/table-workspace",
+              609
+            ],
+            [
+              "articulations/panda",
+              609
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v3_budgeted24/episode_17/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 477,
+          "state_lengths": [
+            [
+              "actors/cube",
+              478
+            ],
+            [
+              "actors/l_shape_tool",
+              478
+            ],
+            [
+              "actors/table-workspace",
+              478
+            ],
+            [
+              "articulations/panda",
+              478
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v3_budgeted24/episode_18/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 782,
+          "state_lengths": [
+            [
+              "actors/cube",
+              783
+            ],
+            [
+              "actors/l_shape_tool",
+              783
+            ],
+            [
+              "actors/table-workspace",
+              783
+            ],
+            [
+              "articulations/panda",
+              783
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v3_budgeted24/episode_19/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 627,
+          "state_lengths": [
+            [
+              "actors/cube",
+              628
+            ],
+            [
+              "actors/l_shape_tool",
+              628
+            ],
+            [
+              "actors/table-workspace",
+              628
+            ],
+            [
+              "articulations/panda",
+              628
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v3_budgeted24/episode_2/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 90,
+          "state_lengths": [
+            [
+              "actors/cube",
+              91
+            ],
+            [
+              "actors/l_shape_tool",
+              91
+            ],
+            [
+              "actors/table-workspace",
+              91
+            ],
+            [
+              "articulations/panda",
+              91
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v3_budgeted24/episode_20/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 523,
+          "state_lengths": [
+            [
+              "actors/cube",
+              524
+            ],
+            [
+              "actors/l_shape_tool",
+              524
+            ],
+            [
+              "actors/table-workspace",
+              524
+            ],
+            [
+              "articulations/panda",
+              524
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v3_budgeted24/episode_21/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 556,
+          "state_lengths": [
+            [
+              "actors/cube",
+              557
+            ],
+            [
+              "actors/l_shape_tool",
+              557
+            ],
+            [
+              "actors/table-workspace",
+              557
+            ],
+            [
+              "articulations/panda",
+              557
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v3_budgeted24/episode_22/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 608,
+          "state_lengths": [
+            [
+              "actors/cube",
+              609
+            ],
+            [
+              "actors/l_shape_tool",
+              609
+            ],
+            [
+              "actors/table-workspace",
+              609
+            ],
+            [
+              "articulations/panda",
+              609
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v3_budgeted24/episode_3/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 810,
+          "state_lengths": [
+            [
+              "actors/cube",
+              811
+            ],
+            [
+              "actors/l_shape_tool",
+              811
+            ],
+            [
+              "actors/table-workspace",
+              811
+            ],
+            [
+              "articulations/panda",
+              811
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v3_budgeted24/episode_4/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 569,
+          "state_lengths": [
+            [
+              "actors/cube",
+              570
+            ],
+            [
+              "actors/l_shape_tool",
+              570
+            ],
+            [
+              "actors/table-workspace",
+              570
+            ],
+            [
+              "articulations/panda",
+              570
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v3_budgeted24/episode_5/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 525,
+          "state_lengths": [
+            [
+              "actors/cube",
+              526
+            ],
+            [
+              "actors/l_shape_tool",
+              526
+            ],
+            [
+              "actors/table-workspace",
+              526
+            ],
+            [
+              "articulations/panda",
+              526
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v3_budgeted24/episode_6/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 939,
+          "state_lengths": [
+            [
+              "actors/cube",
+              940
+            ],
+            [
+              "actors/l_shape_tool",
+              940
+            ],
+            [
+              "actors/table-workspace",
+              940
+            ],
+            [
+              "articulations/panda",
+              940
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v3_budgeted24/episode_7/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 647,
+          "state_lengths": [
+            [
+              "actors/cube",
+              648
+            ],
+            [
+              "actors/l_shape_tool",
+              648
+            ],
+            [
+              "actors/table-workspace",
+              648
+            ],
+            [
+              "articulations/panda",
+              648
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v3_budgeted24/episode_8/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 651,
+          "state_lengths": [
+            [
+              "actors/cube",
+              652
+            ],
+            [
+              "actors/l_shape_tool",
+              652
+            ],
+            [
+              "actors/table-workspace",
+              652
+            ],
+            [
+              "articulations/panda",
+              652
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v3_budgeted24/episode_9/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 525,
+          "state_lengths": [
+            [
+              "actors/cube",
+              526
+            ],
+            [
+              "actors/l_shape_tool",
+              526
+            ],
+            [
+              "actors/table-workspace",
+              526
+            ],
+            [
+              "articulations/panda",
+              526
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v3_frame_fixed_smoke/episode_0/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 521,
+          "state_lengths": [
+            [
+              "actors/cube",
+              522
+            ],
+            [
+              "actors/l_shape_tool",
+              522
+            ],
+            [
+              "actors/table-workspace",
+              522
+            ],
+            [
+              "articulations/panda",
+              522
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v3_frame_fixed_smoke/episode_1/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 460,
+          "state_lengths": [
+            [
+              "actors/cube",
+              461
+            ],
+            [
+              "actors/l_shape_tool",
+              461
+            ],
+            [
+              "actors/table-workspace",
+              461
+            ],
+            [
+              "articulations/panda",
+              461
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v3_frame_fixed_smoke/episode_2/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 515,
+          "state_lengths": [
+            [
+              "actors/cube",
+              516
+            ],
+            [
+              "actors/l_shape_tool",
+              516
+            ],
+            [
+              "actors/table-workspace",
+              516
+            ],
+            [
+              "articulations/panda",
+              516
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v3_grasp_fixed_smoke/episode_0/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 8223,
+          "state_lengths": [
+            [
+              "actors/cube",
+              8224
+            ],
+            [
+              "actors/l_shape_tool",
+              8224
+            ],
+            [
+              "actors/table-workspace",
+              8224
+            ],
+            [
+              "articulations/panda",
+              8224
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v3_grasp_fixed_smoke/episode_1/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 353,
+          "state_lengths": [
+            [
+              "actors/cube",
+              354
+            ],
+            [
+              "actors/l_shape_tool",
+              354
+            ],
+            [
+              "actors/table-workspace",
+              354
+            ],
+            [
+              "articulations/panda",
+              354
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v3_grasp_fixed_smoke/episode_2/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 316,
+          "state_lengths": [
+            [
+              "actors/cube",
+              317
+            ],
+            [
+              "actors/l_shape_tool",
+              317
+            ],
+            [
+              "actors/table-workspace",
+              317
+            ],
+            [
+              "articulations/panda",
+              317
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v3_pilot24/episode_0/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 521,
+          "state_lengths": [
+            [
+              "actors/cube",
+              522
+            ],
+            [
+              "actors/l_shape_tool",
+              522
+            ],
+            [
+              "actors/table-workspace",
+              522
+            ],
+            [
+              "articulations/panda",
+              522
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v3_pilot24/episode_1/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 791,
+          "state_lengths": [
+            [
+              "actors/cube",
+              792
+            ],
+            [
+              "actors/l_shape_tool",
+              792
+            ],
+            [
+              "actors/table-workspace",
+              792
+            ],
+            [
+              "articulations/panda",
+              792
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v3_pilot24/episode_10/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 416,
+          "state_lengths": [
+            [
+              "actors/cube",
+              417
+            ],
+            [
+              "actors/l_shape_tool",
+              417
+            ],
+            [
+              "actors/table-workspace",
+              417
+            ],
+            [
+              "articulations/panda",
+              417
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v3_pilot24/episode_2/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 90,
+          "state_lengths": [
+            [
+              "actors/cube",
+              91
+            ],
+            [
+              "actors/l_shape_tool",
+              91
+            ],
+            [
+              "actors/table-workspace",
+              91
+            ],
+            [
+              "articulations/panda",
+              91
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v3_pilot24/episode_3/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 810,
+          "state_lengths": [
+            [
+              "actors/cube",
+              811
+            ],
+            [
+              "actors/l_shape_tool",
+              811
+            ],
+            [
+              "actors/table-workspace",
+              811
+            ],
+            [
+              "articulations/panda",
+              811
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v3_pilot24/episode_4/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 569,
+          "state_lengths": [
+            [
+              "actors/cube",
+              570
+            ],
+            [
+              "actors/l_shape_tool",
+              570
+            ],
+            [
+              "actors/table-workspace",
+              570
+            ],
+            [
+              "articulations/panda",
+              570
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v3_pilot24/episode_5/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 525,
+          "state_lengths": [
+            [
+              "actors/cube",
+              526
+            ],
+            [
+              "actors/l_shape_tool",
+              526
+            ],
+            [
+              "actors/table-workspace",
+              526
+            ],
+            [
+              "articulations/panda",
+              526
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v3_pilot24/episode_6/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 939,
+          "state_lengths": [
+            [
+              "actors/cube",
+              940
+            ],
+            [
+              "actors/l_shape_tool",
+              940
+            ],
+            [
+              "actors/table-workspace",
+              940
+            ],
+            [
+              "articulations/panda",
+              940
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v3_pilot24/episode_7/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 647,
+          "state_lengths": [
+            [
+              "actors/cube",
+              648
+            ],
+            [
+              "actors/l_shape_tool",
+              648
+            ],
+            [
+              "actors/table-workspace",
+              648
+            ],
+            [
+              "articulations/panda",
+              648
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v3_pilot24/episode_8/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 651,
+          "state_lengths": [
+            [
+              "actors/cube",
+              652
+            ],
+            [
+              "actors/l_shape_tool",
+              652
+            ],
+            [
+              "actors/table-workspace",
+              652
+            ],
+            [
+              "articulations/panda",
+              652
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v3_pilot24/episode_9/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 525,
+          "state_lengths": [
+            [
+              "actors/cube",
+              526
+            ],
+            [
+              "actors/l_shape_tool",
+              526
+            ],
+            [
+              "actors/table-workspace",
+              526
+            ],
+            [
+              "articulations/panda",
+              526
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v3_smoke/episode_0/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 143,
+          "state_lengths": [
+            [
+              "actors/cube",
+              144
+            ],
+            [
+              "actors/l_shape_tool",
+              144
+            ],
+            [
+              "actors/table-workspace",
+              144
+            ],
+            [
+              "articulations/panda",
+              144
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v3_smoke/episode_1/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 148,
+          "state_lengths": [
+            [
+              "actors/cube",
+              149
+            ],
+            [
+              "actors/l_shape_tool",
+              149
+            ],
+            [
+              "actors/table-workspace",
+              149
+            ],
+            [
+              "articulations/panda",
+              149
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v3_smoke/episode_2/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 100,
+          "state_lengths": [
+            [
+              "actors/cube",
+              101
+            ],
+            [
+              "actors/l_shape_tool",
+              101
+            ],
+            [
+              "actors/table-workspace",
+              101
+            ],
+            [
+              "articulations/panda",
+              101
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v3_strict_smoke/episode_0/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 521,
+          "state_lengths": [
+            [
+              "actors/cube",
+              522
+            ],
+            [
+              "actors/l_shape_tool",
+              522
+            ],
+            [
+              "actors/table-workspace",
+              522
+            ],
+            [
+              "articulations/panda",
+              522
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v3_strict_smoke/episode_1/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 600,
+          "state_lengths": [
+            [
+              "actors/cube",
+              601
+            ],
+            [
+              "actors/l_shape_tool",
+              601
+            ],
+            [
+              "actors/table-workspace",
+              601
+            ],
+            [
+              "articulations/panda",
+              601
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/T2_v3_strict_smoke/episode_2/oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 90,
+          "state_lengths": [
+            [
+              "actors/cube",
+              91
+            ],
+            [
+              "actors/l_shape_tool",
+              91
+            ],
+            [
+              "actors/table-workspace",
+              91
+            ],
+            [
+              "articulations/panda",
+              91
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/audit_smoke/audited_oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 276,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              277
+            ],
+            [
+              "actors/cubeB",
+              277
+            ],
+            [
+              "actors/stage_marker",
+              277
+            ],
+            [
+              "actors/table-workspace",
+              277
+            ],
+            [
+              "articulations/panda",
+              277
+            ],
+            [
+              "task_stage_id",
+              277
+            ]
+          ],
+          "state_length_ok": true
+        },
+        {
+          "key": "traj_1",
+          "actions": 273,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              274
+            ],
+            [
+              "actors/cubeB",
+              274
+            ],
+            [
+              "actors/stage_marker",
+              274
+            ],
+            [
+              "actors/table-workspace",
+              274
+            ],
+            [
+              "articulations/panda",
+              274
+            ],
+            [
+              "task_stage_id",
+              274
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/official_tool_audit/PullCubeTool-v1/motionplanning/20261106_065102.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 234,
+          "state_lengths": [
+            [
+              "actors/cube",
+              235
+            ],
+            [
+              "actors/l_shape_tool",
+              235
+            ],
+            [
+              "actors/table-workspace",
+              235
+            ],
+            [
+              "articulations/panda",
+              235
+            ]
+          ],
+          "state_length_ok": true
+        },
+        {
+          "key": "traj_1",
+          "actions": 254,
+          "state_lengths": [
+            [
+              "actors/cube",
+              255
+            ],
+            [
+              "actors/l_shape_tool",
+              255
+            ],
+            [
+              "actors/table-workspace",
+              255
+            ],
+            [
+              "articulations/panda",
+              255
+            ]
+          ],
+          "state_length_ok": true
+        },
+        {
+          "key": "traj_2",
+          "actions": 257,
+          "state_lengths": [
+            [
+              "actors/cube",
+              258
+            ],
+            [
+              "actors/l_shape_tool",
+              258
+            ],
+            [
+              "actors/table-workspace",
+              258
+            ],
+            [
+              "articulations/panda",
+              258
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/pilot20/audited_oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 279,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              280
+            ],
+            [
+              "actors/cubeB",
+              280
+            ],
+            [
+              "actors/stage_marker",
+              280
+            ],
+            [
+              "actors/table-workspace",
+              280
+            ],
+            [
+              "articulations/panda",
+              280
+            ],
+            [
+              "task_stage_id",
+              280
+            ]
+          ],
+          "state_length_ok": true
+        },
+        {
+          "key": "traj_1",
+          "actions": 282,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              283
+            ],
+            [
+              "actors/cubeB",
+              283
+            ],
+            [
+              "actors/stage_marker",
+              283
+            ],
+            [
+              "actors/table-workspace",
+              283
+            ],
+            [
+              "articulations/panda",
+              283
+            ],
+            [
+              "task_stage_id",
+              283
+            ]
+          ],
+          "state_length_ok": true
+        },
+        {
+          "key": "traj_10",
+          "actions": 284,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              285
+            ],
+            [
+              "actors/cubeB",
+              285
+            ],
+            [
+              "actors/stage_marker",
+              285
+            ],
+            [
+              "actors/table-workspace",
+              285
+            ],
+            [
+              "articulations/panda",
+              285
+            ],
+            [
+              "task_stage_id",
+              285
+            ]
+          ],
+          "state_length_ok": true
+        },
+        {
+          "key": "traj_11",
+          "actions": 272,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              273
+            ],
+            [
+              "actors/cubeB",
+              273
+            ],
+            [
+              "actors/stage_marker",
+              273
+            ],
+            [
+              "actors/table-workspace",
+              273
+            ],
+            [
+              "articulations/panda",
+              273
+            ],
+            [
+              "task_stage_id",
+              273
+            ]
+          ],
+          "state_length_ok": true
+        },
+        {
+          "key": "traj_12",
+          "actions": 269,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              270
+            ],
+            [
+              "actors/cubeB",
+              270
+            ],
+            [
+              "actors/stage_marker",
+              270
+            ],
+            [
+              "actors/table-workspace",
+              270
+            ],
+            [
+              "articulations/panda",
+              270
+            ],
+            [
+              "task_stage_id",
+              270
+            ]
+          ],
+          "state_length_ok": true
+        },
+        {
+          "key": "traj_13",
+          "actions": 276,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              277
+            ],
+            [
+              "actors/cubeB",
+              277
+            ],
+            [
+              "actors/stage_marker",
+              277
+            ],
+            [
+              "actors/table-workspace",
+              277
+            ],
+            [
+              "articulations/panda",
+              277
+            ],
+            [
+              "task_stage_id",
+              277
+            ]
+          ],
+          "state_length_ok": true
+        },
+        {
+          "key": "traj_14",
+          "actions": 280,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              281
+            ],
+            [
+              "actors/cubeB",
+              281
+            ],
+            [
+              "actors/stage_marker",
+              281
+            ],
+            [
+              "actors/table-workspace",
+              281
+            ],
+            [
+              "articulations/panda",
+              281
+            ],
+            [
+              "task_stage_id",
+              281
+            ]
+          ],
+          "state_length_ok": true
+        },
+        {
+          "key": "traj_15",
+          "actions": 270,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              271
+            ],
+            [
+              "actors/cubeB",
+              271
+            ],
+            [
+              "actors/stage_marker",
+              271
+            ],
+            [
+              "actors/table-workspace",
+              271
+            ],
+            [
+              "articulations/panda",
+              271
+            ],
+            [
+              "task_stage_id",
+              271
+            ]
+          ],
+          "state_length_ok": true
+        },
+        {
+          "key": "traj_16",
+          "actions": 279,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              280
+            ],
+            [
+              "actors/cubeB",
+              280
+            ],
+            [
+              "actors/stage_marker",
+              280
+            ],
+            [
+              "actors/table-workspace",
+              280
+            ],
+            [
+              "articulations/panda",
+              280
+            ],
+            [
+              "task_stage_id",
+              280
+            ]
+          ],
+          "state_length_ok": true
+        },
+        {
+          "key": "traj_17",
+          "actions": 165,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              166
+            ],
+            [
+              "actors/cubeB",
+              166
+            ],
+            [
+              "actors/stage_marker",
+              166
+            ],
+            [
+              "actors/table-workspace",
+              166
+            ],
+            [
+              "articulations/panda",
+              166
+            ],
+            [
+              "task_stage_id",
+              166
+            ]
+          ],
+          "state_length_ok": true
+        },
+        {
+          "key": "traj_18",
+          "actions": 273,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              274
+            ],
+            [
+              "actors/cubeB",
+              274
+            ],
+            [
+              "actors/stage_marker",
+              274
+            ],
+            [
+              "actors/table-workspace",
+              274
+            ],
+            [
+              "articulations/panda",
+              274
+            ],
+            [
+              "task_stage_id",
+              274
+            ]
+          ],
+          "state_length_ok": true
+        },
+        {
+          "key": "traj_19",
+          "actions": 267,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              268
+            ],
+            [
+              "actors/cubeB",
+              268
+            ],
+            [
+              "actors/stage_marker",
+              268
+            ],
+            [
+              "actors/table-workspace",
+              268
+            ],
+            [
+              "articulations/panda",
+              268
+            ],
+            [
+              "task_stage_id",
+              268
+            ]
+          ],
+          "state_length_ok": true
+        },
+        {
+          "key": "traj_2",
+          "actions": 275,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              276
+            ],
+            [
+              "actors/cubeB",
+              276
+            ],
+            [
+              "actors/stage_marker",
+              276
+            ],
+            [
+              "actors/table-workspace",
+              276
+            ],
+            [
+              "articulations/panda",
+              276
+            ],
+            [
+              "task_stage_id",
+              276
+            ]
+          ],
+          "state_length_ok": true
+        },
+        {
+          "key": "traj_3",
+          "actions": 272,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              273
+            ],
+            [
+              "actors/cubeB",
+              273
+            ],
+            [
+              "actors/stage_marker",
+              273
+            ],
+            [
+              "actors/table-workspace",
+              273
+            ],
+            [
+              "articulations/panda",
+              273
+            ],
+            [
+              "task_stage_id",
+              273
+            ]
+          ],
+          "state_length_ok": true
+        },
+        {
+          "key": "traj_4",
+          "actions": 269,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              270
+            ],
+            [
+              "actors/cubeB",
+              270
+            ],
+            [
+              "actors/stage_marker",
+              270
+            ],
+            [
+              "actors/table-workspace",
+              270
+            ],
+            [
+              "articulations/panda",
+              270
+            ],
+            [
+              "task_stage_id",
+              270
+            ]
+          ],
+          "state_length_ok": true
+        },
+        {
+          "key": "traj_5",
+          "actions": 266,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              267
+            ],
+            [
+              "actors/cubeB",
+              267
+            ],
+            [
+              "actors/stage_marker",
+              267
+            ],
+            [
+              "actors/table-workspace",
+              267
+            ],
+            [
+              "articulations/panda",
+              267
+            ],
+            [
+              "task_stage_id",
+              267
+            ]
+          ],
+          "state_length_ok": true
+        },
+        {
+          "key": "traj_6",
+          "actions": 267,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              268
+            ],
+            [
+              "actors/cubeB",
+              268
+            ],
+            [
+              "actors/stage_marker",
+              268
+            ],
+            [
+              "actors/table-workspace",
+              268
+            ],
+            [
+              "articulations/panda",
+              268
+            ],
+            [
+              "task_stage_id",
+              268
+            ]
+          ],
+          "state_length_ok": true
+        },
+        {
+          "key": "traj_7",
+          "actions": 264,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              265
+            ],
+            [
+              "actors/cubeB",
+              265
+            ],
+            [
+              "actors/stage_marker",
+              265
+            ],
+            [
+              "actors/table-workspace",
+              265
+            ],
+            [
+              "articulations/panda",
+              265
+            ],
+            [
+              "task_stage_id",
+              265
+            ]
+          ],
+          "state_length_ok": true
+        },
+        {
+          "key": "traj_8",
+          "actions": 267,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              268
+            ],
+            [
+              "actors/cubeB",
+              268
+            ],
+            [
+              "actors/stage_marker",
+              268
+            ],
+            [
+              "actors/table-workspace",
+              268
+            ],
+            [
+              "articulations/panda",
+              268
+            ],
+            [
+              "task_stage_id",
+              268
+            ]
+          ],
+          "state_length_ok": true
+        },
+        {
+          "key": "traj_9",
+          "actions": 274,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              275
+            ],
+            [
+              "actors/cubeB",
+              275
+            ],
+            [
+              "actors/stage_marker",
+              275
+            ],
+            [
+              "actors/table-workspace",
+              275
+            ],
+            [
+              "articulations/panda",
+              275
+            ],
+            [
+              "task_stage_id",
+              275
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    },
+    {
+      "file": "outputs/M1/pilot_initial/handoff_oracle.h5",
+      "episodes": [
+        {
+          "key": "traj_0",
+          "actions": 269,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              270
+            ],
+            [
+              "actors/cubeB",
+              270
+            ],
+            [
+              "actors/stage_marker",
+              270
+            ],
+            [
+              "actors/table-workspace",
+              270
+            ],
+            [
+              "articulations/panda",
+              270
+            ],
+            [
+              "task_stage_id",
+              270
+            ]
+          ],
+          "state_length_ok": true
+        },
+        {
+          "key": "traj_1",
+          "actions": 274,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              275
+            ],
+            [
+              "actors/cubeB",
+              275
+            ],
+            [
+              "actors/stage_marker",
+              275
+            ],
+            [
+              "actors/table-workspace",
+              275
+            ],
+            [
+              "articulations/panda",
+              275
+            ],
+            [
+              "task_stage_id",
+              275
+            ]
+          ],
+          "state_length_ok": true
+        },
+        {
+          "key": "traj_2",
+          "actions": 276,
+          "state_lengths": [
+            [
+              "actors/cubeA",
+              277
+            ],
+            [
+              "actors/cubeB",
+              277
+            ],
+            [
+              "actors/stage_marker",
+              277
+            ],
+            [
+              "actors/table-workspace",
+              277
+            ],
+            [
+              "articulations/panda",
+              277
+            ],
+            [
+              "task_stage_id",
+              277
+            ]
+          ],
+          "state_length_ok": true
+        }
+      ]
+    }
+  ],
+  "missing_csv_referenced_files": [],
+  "interrupted_runs": [
+    "T2_v3_pilot24",
+    "T2_v3_budgeted24"
+  ],
+  "warning": "Interrupted active episode may exist only in raw H5/video, with no completed summary row. Never treat a missing row as successful; raw files remain untouched."
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "name": "stap",
+    "repo": "agiachris/STAP",
+    "commit": "0fe0dcbd5ede5ce4ee3d952642f70b5550a0813c",
+    "download_url": "https://codeload.github.com/agiachris/STAP/zip/0fe0dcbd5ede5ce4ee3d952642f70b5550a0813c",
+    "sha256": "6253ddc0b99e672520d198f5b6dd0885882202eb59852cd3391f5f115e8c58e0",
+    "status": "DOWNLOADED_NOT_RUN"
+  },
+  {
+    "name": "gsc",
+    "repo": "generative-skill-chaining/gsc-code",
+    "commit": "b8f5bc0d44bd453827f3f254ca1b03ec049849c5",
+    "download_url": "https://codeload.github.com/generative-skill-chaining/gsc-code/zip/b8f5bc0d44bd453827f3f254ca1b03ec049849c5",
+    "sha256": "c117305edcbcf42599e434c18058c33b3278daf69e6fa97a2b3af08a894dd8d2",
+    "status": "DOWNLOADED_NOT_RUN"
+  }
+]

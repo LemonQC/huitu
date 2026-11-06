@@ -1,0 +1,13 @@
+{
+  "M0": "PASS",
+  "M1": "FAILED_GATE",
+  "M2": "NOT_RUN_GATE_M1",
+  "M3": "NOT_RUN_GATE_M1",
+  "M4": "NOT_RUN_GATE_M1",
+  "scientific_go_no_go": "INSUFFICIENT_EVIDENCE",
+  "training_gpu_hours": 0,
+  "uploaded_to_remote": false,
+  "completed_audited_csv_rows": 126,
+  "unique_audited_physical_state_hashes": 70,
+  "raw_h5_episode_groups": 136
+}

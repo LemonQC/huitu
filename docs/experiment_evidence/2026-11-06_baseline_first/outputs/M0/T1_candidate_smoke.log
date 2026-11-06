@@ -1,0 +1,7 @@
+[33;1m2026-11-06 06:52:47,395 - mani_skill  - WARNING - mani_skill is not installed with git.[0m
+{'family': 'T1', 'config': 0, 'episode_id': 0, 'seed': 230000, 'init_state_id': 'T1_dev_230000', 'init_state_sha256': 'cf647bc30c9c926069eaa482f22f89630a7fe77d78592f220833adebf0f663fc', 'success': True, 'steps': 265, 'reset_count': 1, 'teleport_guard': True, 'seconds': 1.0557331391610205, 'checks': '{"stage": 4}', 'trajectory_path': 'episode_0/physical_trace.json', 'video_path': 'episode_0/0.mp4'} 
+[33;1m2026-11-06 06:52:48,776 - mani_skill  - WARNING - mani_skill is not installed with git.[0m
+{'family': 'T1', 'config': 1, 'episode_id': 1, 'seed': 230001, 'init_state_id': 'T1_dev_230001', 'init_state_sha256': '17670a11050d9a61e91f8f547f85d41ea28f3b8edd2e041c8ac8d838195f704a', 'success': True, 'steps': 311, 'reset_count': 1, 'teleport_guard': True, 'seconds': 1.1847486239857972, 'checks': '{"stage": 4}', 'trajectory_path': 'episode_1/physical_trace.json', 'video_path': 'episode_1/0.mp4'} 
+[33;1m2026-11-06 06:52:50,308 - mani_skill  - WARNING - mani_skill is not installed with git.[0m
+{'family': 'T1', 'config': 2, 'episode_id': 2, 'seed': 230002, 'init_state_id': 'T1_dev_230002', 'init_state_sha256': 'e640113624262923a4f1d16bfc0f9b8319a2cffcd67a7788e24627810212a244', 'success': True, 'steps': 279, 'reset_count': 1, 'teleport_guard': True, 'seconds': 1.2548419469967484, 'checks': '{"stage": 4}', 'trajectory_path': 'episode_2/physical_trace.json', 'video_path': 'episode_2/0.mp4'} 
+success 3 / 3

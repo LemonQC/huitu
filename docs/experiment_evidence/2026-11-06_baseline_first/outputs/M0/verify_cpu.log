@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/users/lemon/TRO/skill_composition/scripts/verify_env.py", line 25, in <module>
+    frame=env.render_rgb_array();frame=np.asarray(frame.detach().cpu() if isinstance(frame,torch.Tensor) else frame);frame=frame.reshape(-1,*frame.shape[-3:])[0]
+AttributeError: 'TimeLimitWrapper' object has no attribute 'render_rgb_array'

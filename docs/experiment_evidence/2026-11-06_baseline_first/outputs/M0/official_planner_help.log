@@ -1,0 +1,50 @@
+usage: run.py [-h] [-e ENV_ID] [-o OBS_MODE] [-n NUM_TRAJ]
+              [--only-count-success] [--reward-mode REWARD_MODE]
+              [-b SIM_BACKEND] [--render-mode RENDER_MODE] [--vis]
+              [--save-video] [--traj-name TRAJ_NAME] [--shader SHADER]
+              [--record-dir RECORD_DIR] [--num-procs NUM_PROCS]
+
+options:
+  -h, --help            show this help message and exit
+  -e ENV_ID, --env-id ENV_ID
+                        Environment to run motion planning solver on.
+                        Available options are ['DrawTriangle-v1',
+                        'PickCube-v1', 'StackCube-v1', 'PegInsertionSide-v1',
+                        'PlugCharger-v1', 'PlaceSphere-v1', 'PushCube-v1',
+                        'PullCubeTool-v1', 'LiftPegUpright-v1', 'PullCube-v1',
+                        'DrawSVG-v1', 'StackPyramid-v1']
+  -o OBS_MODE, --obs-mode OBS_MODE
+                        Observation mode to use. Usually this is kept as
+                        'none' as observations are not necesary to be stored,
+                        they can be replayed later via the
+                        mani_skill.trajectory.replay_trajectory script.
+  -n NUM_TRAJ, --num-traj NUM_TRAJ
+                        Number of trajectories to generate.
+  --only-count-success  If true, generates trajectories until num_traj of them
+                        are successful and only saves the successful
+                        trajectories/videos
+  --reward-mode REWARD_MODE
+  -b SIM_BACKEND, --sim-backend SIM_BACKEND
+                        Which simulation backend to use. Can be 'auto', 'cpu',
+                        'gpu'
+  --render-mode RENDER_MODE
+                        can be 'sensors' or 'rgb_array' which only affect what
+                        is saved to videos
+  --vis                 whether or not to open a GUI to visualize the solution
+                        live
+  --save-video          whether or not to save videos locally
+  --traj-name TRAJ_NAME
+                        The name of the trajectory .h5 file that will be
+                        created.
+  --shader SHADER       Change shader used for rendering. Default is 'default'
+                        which is very fast. Can also be 'rt' for ray tracing
+                        and generating photo-realistic renders. Can also be
+                        'rt-fast' for a faster but lower quality ray-traced
+                        renderer
+  --record-dir RECORD_DIR
+                        where to save the recorded trajectories
+  --num-procs NUM_PROCS
+                        Number of processes to use to help parallelize the
+                        trajectory replay process. This uses CPU
+                        multiprocessing and only works with the CPU simulation
+                        backend at the moment.

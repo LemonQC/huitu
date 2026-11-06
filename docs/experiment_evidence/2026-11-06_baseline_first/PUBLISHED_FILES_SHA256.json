@@ -1,0 +1,462 @@
+[
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/CHECKSUMS.sha256",
+    "bytes": 174696,
+    "sha256": "c39e9fa4ee9d38d4a2c19235947ba12d5af7eeb4654dbea7496e128159439ccf"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/README.md",
+    "bytes": 1910,
+    "sha256": "4672a054a8d2d66be209560988b7ecc4855327288fb72432f83fb583e4807bb8"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/TRO_BaselineFirst_M0_PASS_M1_FAILED_GATE_20261106.zip.sha256",
+    "bytes": 120,
+    "sha256": "9160bd4666aa7c3b17c9f6795d86a48b57d399e00ec39de793ceaa211772dc9c"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/configs/tasks/M1_candidate_v1.json",
+    "bytes": 1808,
+    "sha256": "c65a26238930eddcd225207ff5aa7a4d5e72db2bdfd4869153273dba636ef93e"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/M0_REPORT.md",
+    "bytes": 3207,
+    "sha256": "f9c8b364803dbfd8177d2296158e76767dd0a7246d6f7a06d4e3c14a4177c690"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/T1_candidate24.log",
+    "bytes": 12854,
+    "sha256": "bfa25af16457a33279a238983ea32ccd9cfa52b3fbb94abb3182814ba2aed4fc"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/T1_candidate_smoke.log",
+    "bytes": 1517,
+    "sha256": "29c88bb5a3d0d8ff4d7f6fed22ae71f238fd6ee834f2b15b1da0cd796bda533f"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/T1_storyboard.log",
+    "bytes": 47,
+    "sha256": "7a3c7a0a8816f4bca664a993cefdf1f07dc3531b6d598db73565b719088416ba"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/T2_candidate24.log",
+    "bytes": 37010,
+    "sha256": "6472feab8f47df22f055d93d02685d7fa20f038a34d3f926f1b18eb68d52fd58"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/T2_candidate_controller_fixed.log",
+    "bytes": 4867,
+    "sha256": "c2bb692caa527c999994f3791e0f042592f41e70c5154acde1aca03dc286b013"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/T2_candidate_smoke.log",
+    "bytes": 5503,
+    "sha256": "f5a04423ff2352b0bcfeb137853c32bfccab42674c9bcb8f6741f7e84f901e94"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/T2_candidate_v2_smoke.log",
+    "bytes": 4562,
+    "sha256": "36ce902d276ab650b11be5a7cddbd7f34b2da10ef47cdcd891bf4adc32e0c633"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/T2_storyboard.log",
+    "bytes": 47,
+    "sha256": "95104f5d14445014b3fcff65e2608ab95864d2c6f34a8f2b3b069b365ec7cdce"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/T2_v3_budgeted24.log",
+    "bytes": 38639,
+    "sha256": "779cdd70a9bf7416eadd0e1b6faa50d7fef8f7b0c2c2a6745cab3fdf9dc292fe"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/T2_v3_frame_fixed_smoke.log",
+    "bytes": 5100,
+    "sha256": "2d7197a88ca78e93ee707c5c3c76ab39eecdb8455e1d5e5559775d0e33c49957"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/T2_v3_grasp_fixed_smoke.log",
+    "bytes": 5713,
+    "sha256": "4b2672c032c9fab9f7b143f325c11c921c019fdf5e496fbcb4fd3694968dc45d"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/T2_v3_pilot24.log",
+    "bytes": 18357,
+    "sha256": "4c87453c4f38a7168c6e1620dc620c974f1604d1a595cec5a2b5523028daf9d3"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/T2_v3_smoke.log",
+    "bytes": 5330,
+    "sha256": "5d47b94af9053cffcfb465b19cdb77673b4a7361282286f58142b70cc656963a"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/T2_v3_strict_smoke.log",
+    "bytes": 5962,
+    "sha256": "f1e6ef0ca2d6b9a3e6a4578133cc65bc78eaf2657d068d2bfaf48834fdc969d3"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/check_raw_evidence.log",
+    "bytes": 54,
+    "sha256": "00faad77d1d85ce9eb20a5a2c7b9d8d7a6941aefb5c08607606277ace22417b5"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/code_inventory.csv",
+    "bytes": 2755,
+    "sha256": "4b3475f561f8e143acf73e869235896218967ad47921236b54665637f15a2a96"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/commands.log",
+    "bytes": 14587,
+    "sha256": "83af2bfab255ef535aae17ec06f3bd46c8c5dd4b7ca89faf883605d82c531f1f"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/compose_targeted_audit.log",
+    "bytes": 743,
+    "sha256": "340ff1dbdfeabda597828419f88af4490869c0f7134061bd96080c7f221db9a9"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/conda_create.log",
+    "bytes": 4770,
+    "sha256": "77e08f12e15953550689f74e9696a7b8e442be09ef1996f5ea1cb0bed0cc4e4c"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/conda_environment.yml",
+    "bytes": 4938,
+    "sha256": "e8e65b4532dc203e00e31360ce5f0d8a1ce5468f5e7f71a606e140193469e87d"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/conda_explicit.txt",
+    "bytes": 2645,
+    "sha256": "3e5f1136b9bd191bf7296380a6f05bbaa5eb488633208274e75a0986e55b6cd9"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/environment.json",
+    "bytes": 3399,
+    "sha256": "7482327252b9dad3daa0eda03387b06de6d2dfcba4b2251cd87c585afe20b895"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/environment_audit.log",
+    "bytes": 3186,
+    "sha256": "eb1d755ec1598c31f557e1e71bcc07a991ecd4a8a17da548b66cc93c90a5473f"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/fetch_references.log",
+    "bytes": 1745,
+    "sha256": "e19e39e4db042e4879082805a95124e259bcd586878be1137863b520a0df9d40"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/final_checks.log",
+    "bytes": 776,
+    "sha256": "3d88b819f82fc259b1411e9fd2f4a765c3043b637d59b2a35519fc44381515a6"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/final_code_inventory.csv",
+    "bytes": 5869,
+    "sha256": "124bb119ea0eb1b699aa8611bcd4b7d28329e4cd0aa9ab349f51834d26de0097"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/final_schema_check.log",
+    "bytes": 206,
+    "sha256": "8faa4a2b2de5cd8c64df4965a13f4a2eb1121464731d32feb5065c216003e66b"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/handoff_audit_smoke.log",
+    "bytes": 778,
+    "sha256": "4374b21956b3658abc8b8677503c218341b4228ec322cc4939ad3f19b48f63ff"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/handoff_oracle_initial.log",
+    "bytes": 461,
+    "sha256": "2010089a8b1dbbab47cdc90579ca3ec51735ccb3db401dc7f69cecb9cc3e0640"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/handoff_pilot20.log",
+    "bytes": 7390,
+    "sha256": "49907c4ebe814fd29d41321d3ec8ec05ebbb75621854f41048a852500cc9f276"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/handoff_smoke.csv",
+    "bytes": 91,
+    "sha256": "6c4b95f327b6b1a061f6f172ab9eeb2129dab94ceaea9d2efe0bbf55388ada60"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/initial_physx_cpu_150000.json",
+    "bytes": 978,
+    "sha256": "49853f5a9e6eedc11ae5f890929c9e0bd14ee8ceec6baf10b693da206d0e5ac9"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/initial_physx_cpu_150001.json",
+    "bytes": 979,
+    "sha256": "35cb3036cab9e6497ff34a21b29e6c1da4bd6843a9a4953bcc7cc155fc9864c9"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/initial_physx_cuda_150000.json",
+    "bytes": 1034,
+    "sha256": "8ff1bd1bb0278b8b74865f705d52780b47ff926ab18207bff098570d88222865"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/initial_physx_cuda_150001.json",
+    "bytes": 1035,
+    "sha256": "5527c3a2acdc970596d5fb1a8fe9f4fa2d788e47979703877af30b12071a6f08"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/license_audit.json",
+    "bytes": 157,
+    "sha256": "a80dac98e7a8f3970e623690d4b65684b6504821b98053eb63562edbc20c9476"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/make_stage_report.log",
+    "bytes": 1426,
+    "sha256": "047c1d89974901b07967d92c2c76eb0a481afcebd84d8b24c2325cb6d12a7313"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/official_planner_help.log",
+    "bytes": 2802,
+    "sha256": "3fb67f34de472e332d633bdeefc59a93b6a1e13c386f43dd7319d0f12e517bc8"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/official_stack_oracle.log",
+    "bytes": 924,
+    "sha256": "a6ca48038afc43ec3a46fa77f02dfab61cc2aa5b719773bf41626ddb94ee1553"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/official_tool_smoke.log",
+    "bytes": 2097,
+    "sha256": "e023587e7516cfacb4c02f707007a4177fe1dc17faec262fa3ae40b1d1554923"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/package_evidence.log",
+    "bytes": 231,
+    "sha256": "c312590860b957d3f3ebbcdd77bd12c4ab98af1850ef34e3c924c3429952007f"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/package_evidence_final.log",
+    "bytes": 231,
+    "sha256": "0076dbe99aa6d06756689b14f3883835c06ee6280707d1d6fcab020df6018fed"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/pip_freeze.txt",
+    "bytes": 2889,
+    "sha256": "ea23d79b2a2a69fe5c5473c748caa044d4cefff4eaa410132a44431ed3faa2a2"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/pip_install.log",
+    "bytes": 18609,
+    "sha256": "5497783bec8fd13de80b9498317e34cb1922558a6d1525279f66ee9dad3e4511"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/pytest_action_budget.log",
+    "bytes": 776,
+    "sha256": "a03f9ae94bbc7fe1be9295913053b24ba700af663b7e58b1b6fa9ec656237cb8"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/pytest_final.log",
+    "bytes": 776,
+    "sha256": "5db5f9e63e8e115b6812d1d8f20c4725a5a3179376a2cf9657aa9b9ca2351525"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/pytest_initial.log",
+    "bytes": 776,
+    "sha256": "0b7d8b4500048e7095e41bb748171a6a1c76afe67a348826f65ed7b6d3dff921"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/pytest_physical.log",
+    "bytes": 776,
+    "sha256": "c0382583c7690cca666401877f446324cfd695a8c0402215aa949dbda564d704"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/raw_episode_index.log",
+    "bytes": 30,
+    "sha256": "6cebc04a7394c1ba6f20b84f2ff758d20df1964a929b92444d2d10ec1f5d5b44"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/schema_check.log",
+    "bytes": 206,
+    "sha256": "8faa4a2b2de5cd8c64df4965a13f4a2eb1121464731d32feb5065c216003e66b"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/smoke_handoff_headless.log",
+    "bytes": 254,
+    "sha256": "543b629534eafb3c6152956e0ab19512072fdd171bf60267cc7b984516660b55"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/smoke_handoff_initial.log",
+    "bytes": 840,
+    "sha256": "ce3b9154dad7d537ccf4e05c9022c3e37015f6b73039bf2af53fc8988ca5b72b"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/smoke_stack_headless.log",
+    "bytes": 931,
+    "sha256": "ca9a7b419a46e0cc3b0ee3145c7484a4307e9ebece10dd079382c61f1cbddb8a"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/smoke_stack_initial.log",
+    "bytes": 840,
+    "sha256": "ce3b9154dad7d537ccf4e05c9022c3e37015f6b73039bf2af53fc8988ca5b72b"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/source_recovery.log",
+    "bytes": 165,
+    "sha256": "8f439855c9317fbe711806625b613fa19d7aaee6daa06f0f8d611ee11ba95a2a"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/stack_smoke.csv",
+    "bytes": 593,
+    "sha256": "082bd7b8f0c03b3249b5cc58688abf40d2a4272b00d4a55a70db8c36d0677387"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/storyboard_pilot.log",
+    "bytes": 239,
+    "sha256": "96793dc3799c56937b69c307719d41a0f649130571b48713ccf46561ffa642a6"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/storyboard_pilot_fixed.log",
+    "bytes": 50,
+    "sha256": "edf24abdccd00f69b10a4beaf6577aa4a6d21f943e09b5765fcba73691d9eb1e"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/verification_physx_cpu.json",
+    "bytes": 38791,
+    "sha256": "8106e605ceca4e60525e15968c80732c6fe26c3743a5862b1ec4fde36100f444"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/verification_physx_cuda.json",
+    "bytes": 42216,
+    "sha256": "30765fabab53b555292bfcfc7960f374b9bc1403c5666b795e0a005bb639174f"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/verify_cpu.log",
+    "bytes": 368,
+    "sha256": "8b922e9ca87ea129dde22e82e3e04bfa6a173bfad5dad3ce7a42f4844d51c3b0"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/verify_cpu_fixed.log",
+    "bytes": 101,
+    "sha256": "a6d168df462cf10c84188b9e5b11b52450e3acde924a1dd90a48facdd4a5ab63"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/verify_cpu_phase_fixed.log",
+    "bytes": 101,
+    "sha256": "a6d168df462cf10c84188b9e5b11b52450e3acde924a1dd90a48facdd4a5ab63"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/verify_gpu.log",
+    "bytes": 368,
+    "sha256": "8b922e9ca87ea129dde22e82e3e04bfa6a173bfad5dad3ce7a42f4844d51c3b0"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/verify_gpu_fixed.log",
+    "bytes": 103,
+    "sha256": "c7561eab985d0b06c8944b6491506b31ab97d688a1fdfb57e9f73c3f842a2841"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M0/verify_gpu_phase_fixed.log",
+    "bytes": 103,
+    "sha256": "c7561eab985d0b06c8944b6491506b31ab97d688a1fdfb57e9f73c3f842a2841"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M1/M1_REPORT.md",
+    "bytes": 4809,
+    "sha256": "89699c3c819832139dc7d30f65736c2f32087972018d4cb90fe16eff42b8fa36"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M1/M1_TASK_CARD.md",
+    "bytes": 2476,
+    "sha256": "e826aed5fd3159709f9f328f0267e7e9dda87aca55a5f6136b11369a72cf0920"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M1/completeness_audit.json",
+    "bytes": 85249,
+    "sha256": "d98705a275359c7d5db3df25db0315803510ab9d251ded61434ede9d04eafd69"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M1/physical_checks.json",
+    "bytes": 38100,
+    "sha256": "68fe1429e1bcbfa075fbdb0ac7d8dd64c71bfcd1c728ceae9e2e0d08e7287081"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/outputs/M1/run_summary.json",
+    "bytes": 5500,
+    "sha256": "096d2117d0181017b66329273357b842484d18fddbd35bcc4af2e593498f380b"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/references/compose_audit/manifest.json",
+    "bytes": 847,
+    "sha256": "eac246bb09e56312f4ea9315fc969cb072d90fbe8b2999df8ac6c312f1bfd895"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/references/source_manifest.json",
+    "bytes": 731,
+    "sha256": "8e4ce8fa3c6990baba6e055a98a0dc993a5f6c8904dc614c43e7ccd7c3a6b5bb"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/reports/BASELINE_REPRODUCTION.md",
+    "bytes": 3529,
+    "sha256": "788b91ac3a8e96fb690b58a201222a56cde6a6017e0bb19e5365d835918b0058"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/reports/FAILURE_MECHANISM.md",
+    "bytes": 2065,
+    "sha256": "6d2add420f982eb540f54052da76827084db16bc1b89f3a7775ac52536248f93"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/reports/MISSING_BASELINE_AUDIT.md",
+    "bytes": 1921,
+    "sha256": "252be1b9cffaee87dd154e048a6704c57602dff9e95ce764115b68f9179edeab"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/reports/README.md",
+    "bytes": 1356,
+    "sha256": "28e34474d5b509d14318aa7ac0515e032c881ae2fda53c5c929c4fa5426fa4f4"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/reports/TRO_GO_NO_GO.md",
+    "bytes": 2410,
+    "sha256": "3f0fc9456fe3c169c24ef20afd80766158249fcca564d70a760f4e1f0eb0f767"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/reports/baseline_implementation_ledger.csv",
+    "bytes": 3402,
+    "sha256": "e40fa104c1d5f3268cba45b95f3b6918dc3bd744d7450e684a4565142a98e8f1"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/reports/failure_interventions.csv",
+    "bytes": 120,
+    "sha256": "f32d8b12b92a9879e32e641309fb3a20a24094c2b1de310b4c7290f6379a46e5"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/reports/failure_interventions_README.md",
+    "bytes": 195,
+    "sha256": "d3a6357da5f9bcf63ce291944f9fa0f942d57a9411fd8f26207515973150a824"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/reports/per_episode_results.csv",
+    "bytes": 114582,
+    "sha256": "d4e8113c30d308b9212b556ee4e8335122013ea35e24f12c3df12a9997470c44"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/reports/raw_episode_index.csv",
+    "bytes": 22458,
+    "sha256": "419abbd3f35c70f3fa44a1b3ce2daac640f1a2528d435390c0c033ea29802426"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/reports/stage_statistics.md",
+    "bytes": 1425,
+    "sha256": "eeffbcba3d4da71fabde1edb52f896b89cbc536a8fe20aed7555de579b7c5a7f"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/reports/stage_status.json",
+    "bytes": 345,
+    "sha256": "69da09e766a9746e7992f4a56b68bd78dd73b016fa2c28be02bfd7893f84c8a2"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/reports/task_cards.md",
+    "bytes": 2476,
+    "sha256": "e826aed5fd3159709f9f328f0267e7e9dda87aca55a5f6136b11369a72cf0920"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_baseline_first/reports/videos_index.md",
+    "bytes": 4500,
+    "sha256": "f523d713fa7ee10f854bd92d362758919ebe5fb3c2a678b47637c67cd4fdd24b"
+  }
+]

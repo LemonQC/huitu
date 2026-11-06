@@ -1,0 +1,1 @@
+{'status': 'PASS', 'backend': 'physx_cuda', 'sim_device': 'cuda', 'control_freq': 20, 'sim_freq': 100}

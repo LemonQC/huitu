@@ -1,0 +1,9 @@
+[33;1m2026-11-06 06:49:27,329 - mani_skill  - WARNING - mani_skill is not installed with git.[0m
+Motion Planning Running on StackCube-v1
+
+proc_id: 0:   0%|          | 0/2 [00:00<?, ?it/s]
+proc_id: 0:  50%|█████     | 1/2 [00:00<00:00,  1.19it/s]
+proc_id: 0:  50%|█████     | 1/2 [00:00<00:00,  1.19it/s, success_rate=1, failed_motion_plan_rate=0, avg_episode_length=107, max_episode_length=107]
+proc_id: 0: 100%|██████████| 2/2 [00:01<00:00,  1.45it/s, success_rate=1, failed_motion_plan_rate=0, avg_episode_length=107, max_episode_length=107]
+proc_id: 0: 100%|██████████| 2/2 [00:01<00:00,  1.45it/s, success_rate=1, failed_motion_plan_rate=0, avg_episode_length=100, max_episode_length=107]
+proc_id: 0: 100%|██████████| 2/2 [00:01<00:00,  1.35it/s, success_rate=1, failed_motion_plan_rate=0, avg_episode_length=100, max_episode_length=107]

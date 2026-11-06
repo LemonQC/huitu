@@ -1,0 +1,41 @@
+[33;1m2026-11-06 07:00:36,320 - mani_skill  - WARNING - No initial pose set for articulation builder of panda, setting to default pose q=[1,0,0,0], p=[0,0,0]. There may be simulation issues/bugs if this articulation at it's initial pose collides with other objects at their initial poses.[0m
+[33;1m2026-11-06 07:00:36,347 - mani_skill  - WARNING - No initial pose set for actor builder of cube, setting to default pose q=[1,0,0,0], p=[0,0,0]. Not setting reasonable initial poses may slow down simulation, see https://github.com/haosulab/ManiSkill/issues/421.[0m
+[33;1m2026-11-06 07:00:36,348 - mani_skill  - WARNING - No initial pose set for actor builder of l_shape_tool, setting to default pose q=[1,0,0,0], p=[0,0,0]. Not setting reasonable initial poses may slow down simulation, see https://github.com/haosulab/ManiSkill/issues/421.[0m
+[33;1m2026-11-06 07:00:36,414 - mani_skill  - WARNING - mani_skill is not installed with git.[0m
+{'family': 'T2', 'config': 0, 'episode_id': 0, 'seed': 240000, 'init_state_id': 'T2_dev_240000', 'init_state_sha256': 'dbfa0bf53162c7945431563ccd4495ef818d61c49dbf913f3211f19ca800f057', 'success': True, 'steps': 521, 'reset_count': 1, 'teleport_guard': True, 'seconds': 1.6740784686990082, 'checks': '{"cube_dx": 0.3157329484820366, "tool_cube_contact": true, "return_xy_error": 0.002385133204279281, "tool_static": true, "tool_released": true, "tool_z": 0.024999994784593582, "return_yaw": -1.5707963267948966, "geometric_clearance": 0.2136966403551346}', 'trajectory_path': 'episode_0/physical_trace.json', 'video_path': 'episode_0/0.mp4'} 
+[33;1m2026-11-06 07:00:38,589 - mani_skill  - WARNING - No initial pose set for articulation builder of panda, setting to default pose q=[1,0,0,0], p=[0,0,0]. There may be simulation issues/bugs if this articulation at it's initial pose collides with other objects at their initial poses.[0m
+[33;1m2026-11-06 07:00:38,594 - mani_skill  - WARNING - No initial pose set for actor builder of cube, setting to default pose q=[1,0,0,0], p=[0,0,0]. Not setting reasonable initial poses may slow down simulation, see https://github.com/haosulab/ManiSkill/issues/421.[0m
+[33;1m2026-11-06 07:00:38,595 - mani_skill  - WARNING - No initial pose set for actor builder of l_shape_tool, setting to default pose q=[1,0,0,0], p=[0,0,0]. Not setting reasonable initial poses may slow down simulation, see https://github.com/haosulab/ManiSkill/issues/421.[0m
+[33;1m2026-11-06 07:00:38,599 - mani_skill  - WARNING - mani_skill is not installed with git.[0m
+screw plan failed
+screw plan failed
+screw plan failed
+screw plan failed
+{'family': 'T2', 'config': 1, 'episode_id': 1, 'seed': 240001, 'init_state_id': 'T2_dev_240001', 'init_state_sha256': '4214683d9c1688b75b58c5417afd5ade824202a41c53198dc478788fabbe7196', 'success': False, 'steps': 600, 'reset_count': 1, 'teleport_guard': True, 'seconds': 1.8297175522893667, 'checks': '{}', 'trajectory_path': 'episode_1/physical_trace.json', 'video_path': 'episode_1/0.mp4'} Traceback (most recent call last):
+  File "/home/users/lemon/TRO/skill_composition/scripts/candidate_pilots.py", line 30, in <module>
+    tcp=_current_tcp(raw);_move(planner,sapien.Pose(tcp.p+np.array([0,0,0.15]),tcp.q))
+  File "/home/users/lemon/TRO/skill_composition/restored/src/skillcomp/tool_oracle.py", line 25, in _move
+    return planner.follow_path(result)
+  File "/home/users/lemon/TRO/.conda/tro-baseline/lib/python3.10/site-packages/mani_skill/examples/motionplanning/two_finger_gripper/motionplanner.py", line 52, in follow_path
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/users/lemon/TRO/.conda/tro-baseline/lib/python3.10/site-packages/mani_skill/utils/wrappers/record.py", line 469, in step
+    obs, rew, terminated, truncated, info = super().step(action)
+  File "/home/users/lemon/TRO/.conda/tro-baseline/lib/python3.10/site-packages/gymnasium/core.py", line 342, in step
+    return self.env.step(action)
+  File "/home/users/lemon/TRO/skill_composition/scripts/physical_audit.py", line 28, in step
+    raise TimeoutError(f"Physical action budget exhausted: {limit}")
+TimeoutError: Physical action budget exhausted: 600
+
+[33;1m2026-11-06 07:00:40,951 - mani_skill  - WARNING - No initial pose set for articulation builder of panda, setting to default pose q=[1,0,0,0], p=[0,0,0]. There may be simulation issues/bugs if this articulation at it's initial pose collides with other objects at their initial poses.[0m
+[33;1m2026-11-06 07:00:40,956 - mani_skill  - WARNING - No initial pose set for actor builder of cube, setting to default pose q=[1,0,0,0], p=[0,0,0]. Not setting reasonable initial poses may slow down simulation, see https://github.com/haosulab/ManiSkill/issues/421.[0m
+[33;1m2026-11-06 07:00:40,956 - mani_skill  - WARNING - No initial pose set for actor builder of l_shape_tool, setting to default pose q=[1,0,0,0], p=[0,0,0]. Not setting reasonable initial poses may slow down simulation, see https://github.com/haosulab/ManiSkill/issues/421.[0m
+[33;1m2026-11-06 07:00:40,961 - mani_skill  - WARNING - mani_skill is not installed with git.[0m
+screw plan failed
+{'family': 'T2', 'config': 2, 'episode_id': 2, 'seed': 240002, 'init_state_id': 'T2_dev_240002', 'init_state_sha256': '81aded6f709326d242078738e809b2f6de146cea56a9d01e74570fea9cd97e9d', 'success': False, 'steps': 90, 'reset_count': 1, 'teleport_guard': True, 'seconds': 0.4296862557530403, 'checks': '{}', 'trajectory_path': 'episode_2/physical_trace.json', 'video_path': 'episode_2/0.mp4'} Traceback (most recent call last):
+  File "/home/users/lemon/TRO/skill_composition/scripts/candidate_pilots.py", line 25, in <module>
+    pull_solve(env,seed=seed);raw=env.unwrapped
+  File "/home/users/lemon/TRO/skill_composition/restored/src/skillcomp/tool_oracle.py", line 71, in solve
+    raise RuntimeError("Tool grasp not verified by finger contacts")
+RuntimeError: Tool grasp not verified by finger contacts
+
+success 1 / 3

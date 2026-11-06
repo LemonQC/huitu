@@ -1,0 +1,37 @@
+[33;1m2026-11-06 06:52:48,522 - mani_skill  - WARNING - No initial pose set for articulation builder of panda, setting to default pose q=[1,0,0,0], p=[0,0,0]. There may be simulation issues/bugs if this articulation at it's initial pose collides with other objects at their initial poses.[0m
+[33;1m2026-11-06 06:52:48,552 - mani_skill  - WARNING - No initial pose set for actor builder of cube, setting to default pose q=[1,0,0,0], p=[0,0,0]. Not setting reasonable initial poses may slow down simulation, see https://github.com/haosulab/ManiSkill/issues/421.[0m
+[33;1m2026-11-06 06:52:48,553 - mani_skill  - WARNING - No initial pose set for actor builder of l_shape_tool, setting to default pose q=[1,0,0,0], p=[0,0,0]. Not setting reasonable initial poses may slow down simulation, see https://github.com/haosulab/ManiSkill/issues/421.[0m
+[33;1m2026-11-06 06:52:48,635 - mani_skill  - WARNING - mani_skill is not installed with git.[0m
+screw plan failed
+{'family': 'T2', 'config': 0, 'episode_id': 0, 'seed': 240000, 'init_state_id': 'T2_dev_240000', 'init_state_sha256': 'dbfa0bf53162c7945431563ccd4495ef818d61c49dbf913f3211f19ca800f057', 'success': False, 'steps': 354, 'reset_count': 1, 'teleport_guard': True, 'seconds': 1.5460891341790557, 'checks': '{}', 'trajectory_path': 'episode_0/physical_trace.json', 'video_path': 'episode_0/0.mp4'} Traceback (most recent call last):
+  File "/home/users/lemon/TRO/skill_composition/scripts/candidate_pilots.py", line 34, in <module>
+    _try_pose(planner,sapien.Pose(tcp.p+low-tool,tcp.q),'return-lower');planner.open_gripper(t=20)
+  File "/home/users/lemon/TRO/skill_composition/restored/src/skillcomp/oracle.py", line 21, in _try_pose
+    raise RuntimeError(f"Motion planner returned -1 during {step_name}")
+RuntimeError: Motion planner returned -1 during return-lower
+
+[33;1m2026-11-06 06:52:50,623 - mani_skill  - WARNING - No initial pose set for articulation builder of panda, setting to default pose q=[1,0,0,0], p=[0,0,0]. There may be simulation issues/bugs if this articulation at it's initial pose collides with other objects at their initial poses.[0m
+[33;1m2026-11-06 06:52:50,630 - mani_skill  - WARNING - No initial pose set for actor builder of cube, setting to default pose q=[1,0,0,0], p=[0,0,0]. Not setting reasonable initial poses may slow down simulation, see https://github.com/haosulab/ManiSkill/issues/421.[0m
+[33;1m2026-11-06 06:52:50,630 - mani_skill  - WARNING - No initial pose set for actor builder of l_shape_tool, setting to default pose q=[1,0,0,0], p=[0,0,0]. Not setting reasonable initial poses may slow down simulation, see https://github.com/haosulab/ManiSkill/issues/421.[0m
+[33;1m2026-11-06 06:52:50,635 - mani_skill  - WARNING - mani_skill is not installed with git.[0m
+screw plan failed
+{'family': 'T2', 'config': 1, 'episode_id': 1, 'seed': 240001, 'init_state_id': 'T2_dev_240001', 'init_state_sha256': '4214683d9c1688b75b58c5417afd5ade824202a41c53198dc478788fabbe7196', 'success': False, 'steps': 323, 'reset_count': 1, 'teleport_guard': True, 'seconds': 1.127300954889506, 'checks': '{}', 'trajectory_path': 'episode_1/physical_trace.json', 'video_path': 'episode_1/0.mp4'} Traceback (most recent call last):
+  File "/home/users/lemon/TRO/skill_composition/scripts/candidate_pilots.py", line 34, in <module>
+    _try_pose(planner,sapien.Pose(tcp.p+low-tool,tcp.q),'return-lower');planner.open_gripper(t=20)
+  File "/home/users/lemon/TRO/skill_composition/restored/src/skillcomp/oracle.py", line 21, in _try_pose
+    raise RuntimeError(f"Motion planner returned -1 during {step_name}")
+RuntimeError: Motion planner returned -1 during return-lower
+
+[33;1m2026-11-06 06:52:52,084 - mani_skill  - WARNING - No initial pose set for articulation builder of panda, setting to default pose q=[1,0,0,0], p=[0,0,0]. There may be simulation issues/bugs if this articulation at it's initial pose collides with other objects at their initial poses.[0m
+[33;1m2026-11-06 06:52:52,090 - mani_skill  - WARNING - No initial pose set for actor builder of cube, setting to default pose q=[1,0,0,0], p=[0,0,0]. Not setting reasonable initial poses may slow down simulation, see https://github.com/haosulab/ManiSkill/issues/421.[0m
+[33;1m2026-11-06 06:52:52,090 - mani_skill  - WARNING - No initial pose set for actor builder of l_shape_tool, setting to default pose q=[1,0,0,0], p=[0,0,0]. Not setting reasonable initial poses may slow down simulation, see https://github.com/haosulab/ManiSkill/issues/421.[0m
+[33;1m2026-11-06 06:52:52,094 - mani_skill  - WARNING - mani_skill is not installed with git.[0m
+screw plan failed
+{'family': 'T2', 'config': 2, 'episode_id': 2, 'seed': 240002, 'init_state_id': 'T2_dev_240002', 'init_state_sha256': '81aded6f709326d242078738e809b2f6de146cea56a9d01e74570fea9cd97e9d', 'success': False, 'steps': 333, 'reset_count': 1, 'teleport_guard': True, 'seconds': 0.9789281282573938, 'checks': '{}', 'trajectory_path': 'episode_2/physical_trace.json', 'video_path': 'episode_2/0.mp4'} Traceback (most recent call last):
+  File "/home/users/lemon/TRO/skill_composition/scripts/candidate_pilots.py", line 34, in <module>
+    _try_pose(planner,sapien.Pose(tcp.p+low-tool,tcp.q),'return-lower');planner.open_gripper(t=20)
+  File "/home/users/lemon/TRO/skill_composition/restored/src/skillcomp/oracle.py", line 21, in _try_pose
+    raise RuntimeError(f"Motion planner returned -1 during {step_name}")
+RuntimeError: Motion planner returned -1 during return-lower
+
+success 0 / 3
