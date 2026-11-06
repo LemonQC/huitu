@@ -19,7 +19,7 @@ Baseline First。用同一个 ManiSkill 3 + Panda 的**连续物理环境**检�
 
 ### 1. 主环境物理可执行性（**本轮最高优先级**）
 
-在 `HandoffRegraspStack-v0` 同一连续 scene（红方块、绿方块、蓝色工作区、Panda）中，使用 ManiSkill 官方 Panda motion planner API 编写 `scripts/collect_oracle.py` 与 `src/skillcomp/oracle.py`。明确实现：
+在 `HandoffRegraspStack-v0` 同一连续 scene（红方块、绿方块、蓝色工作区、Panda）中，使用 ManiSkill 官方 Panda motion planner API 先检查并修复已提交的 `scripts/collect_oracle.py` 与 `src/skillcomp/oracle.py` 原型。明确实现：
 - Pick red cube (held & lifted)
 - Transport red cube to staging area, place physically, release and wait static
 - Regrasp red cube physically, lift
@@ -53,11 +53,11 @@ P2 文献重实现按优先级 STAP（Q、dynamics、长程技能参数联合优
 ## 需要创建的文件
 
 ```text
-src/skillcomp/oracle.py
+src/skillcomp/oracle.py  # 已提交初版，需调通
 src/skillcomp/skills.py
 src/skillcomp/policies/{bc_rnn,diffusion,act,q_cem,geometric}.py
 src/skillcomp/planners/{stap,gsc,skill_rrt}.py   # 只有对应忠实复现后才使用这些名字
-scripts/collect_oracle.py
+scripts/collect_oracle.py  # 已提交初版，需调通
 scripts/collect_skills.py
 scripts/train_skills.py
 scripts/eval_skill_chain.py
