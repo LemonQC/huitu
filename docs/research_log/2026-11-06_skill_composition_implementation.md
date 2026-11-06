@@ -50,3 +50,11 @@
 按 `projects/skill_composition/docs/CODEX_EXECUTION_PROMPT_ZH.md` 的 M0/M1 先跑通安装、单测、真实物理和至少三个独立 reset 的四阶段真实 oracle 全成功示范。未达到不进行大量模型训练。
 
 下一次对话继续维护独立 MD，不可假定后台自动同步。
+
+## 附加提交（同日继续工作）
+
+- `d772962`：新增 `src/skillcomp/oracle.py` 与 `scripts/collect_oracle.py` 初版、`docs/ORACLE_CONTROLLER.md`；基于官方 ManiSkill Panda motionplanner 的抓取/移动/松爪动作，在同一物理连续任务内完成 4 阶段的候选轨迹。**未经服务器测试；不是已验证的演示数据。**
+- `0a5e9c4` 与后续文档提交：补充 `transforms3d` 依赖，纠正 Codex 指令为“调通已有 Oracle 原型”，明确 oracle joint controller 与学习策略 ee controller 之间需用官方 replay conversion，禁止直接混用动作。
+- 最终核心文件路径：`projects/skill_composition/src/skillcomp/handoff_env.py`、`src/skillcomp/oracle.py`、`scripts/smoke_handoff.py`、`scripts/collect_oracle.py`、`docs/CODEX_EXECUTION_PROMPT_ZH.md`。
+
+状态说明：使用 GitHub 工具确认文件实际写入了仓库，但未运行真实仿真，也未获取成功物理轨迹或 Baseline 结果。交由 Codex 首先进行 M0/M1 验证。
