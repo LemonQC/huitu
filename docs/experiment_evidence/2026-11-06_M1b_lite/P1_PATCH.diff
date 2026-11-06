@@ -1,0 +1,293 @@
+--- v2-original/t2_v2_original_pull.py
++++ M1b_lite/t2_v2_patch.py
+@@ -1,97 +1,99 @@
+-import numpy as np
+-import sapien
++"""Bounded v2-only engineering patch; no task/threshold changes or v3 import."""
++import ctypes,random
++from pathlib import Path
++import numpy as np,torch,sapien
++from transforms3d.quaternions import quat2mat
++from mani_skill.examples.motionplanning.panda.motionplanner import PandaArmMotionPlanningSolver
++from mani_skill.examples.motionplanning.base_motionplanner.utils import compute_grasp_info_by_obb,get_actor_obb
+ 
+-from mani_skill.envs.tasks import PullCubeToolEnv
+-from mani_skill.examples.motionplanning.panda.motionplanner import PandaArmMotionPlanningSolver
+-from mani_skill.examples.motionplanning.base_motionplanner.utils import compute_grasp_info_by_obb, get_actor_obb
++def seed_planners(seed):
++ random.seed(seed);np.random.seed(seed);torch.manual_seed(seed)
++ libc=ctypes.CDLL(None);libc.srand.argtypes=[ctypes.c_uint];libc.srand(seed)
++ libs=Path('/home/users/lemon/TRO/.conda/tro-baseline/lib/python3.10/site-packages/mplib.libs')
++ ompl=ctypes.CDLL(str(next(libs.glob('libompl*.so*'))))
++ setter=getattr(ompl,'_ZN4ompl3RNG7setSeedEm');setter.argtypes=[ctypes.c_ulong];setter.restype=None;setter(seed)
++ getter=getattr(ompl,'_ZN4ompl3RNG7getSeedEv');getter.restype=ctypes.c_ulong
++ assert getter()==seed
++ return {'python_numpy_torch_libc_seed':seed,'ompl_seed':getter(),'pinocchio_note':'libc srand fixed for Eigen random configuration source; no claim old runs had controlled seeds'}
+ 
+-def solve(env: PullCubeToolEnv, seed=None, debug=False, vis=False):
+-    env.reset(seed=seed)
+-    planner = PandaArmMotionPlanningSolver(
+-        env,
+-        debug=debug,
+-        vis=vis,
+-        base_pose=env.unwrapped.agent.robot.pose,
+-        visualize_target_grasp_pose=vis,
+-        print_env_info=False,
+-        joint_vel_limits=0.75,
+-        joint_acc_limits=0.75,
+-    )
++def vec(t):return t.detach().cpu().numpy().reshape(-1)
+ 
+-    env = env.unwrapped
++class SafeV2Planner(PandaArmMotionPlanningSolver):
++ def __init__(self,env):
++  super().__init__(env,base_pose=env.unwrapped.agent.robot.pose,vis=False,debug=False,visualize_target_grasp_pose=False,print_env_info=False,joint_vel_limits=0.75,joint_acc_limits=0.75)
++  self.calls=[];self.empty_paths=0;self.phase='init'
++ def follow_path(self,result,refine_steps=0):
++  if len(result['position'])==0:
++   self.empty_paths+=1;q=vec(self.base_env.agent.robot.get_qpos())[:7]
++   return self.env.step(np.r_[q,self.gripper_state])
++  return super().follow_path(result,refine_steps)
++ def move(self,pose,name):
++  self.phase=name
++  if len(self.calls)>=32:raise TimeoutError('32 movement planning calls exhausted')
++  result=self.move_to_pose_with_screw(pose,dry_run=True);kind='screw'
++  if isinstance(result,(int,np.integer)) and result==-1:
++   result=self.move_to_pose_with_RRTConnect(pose,dry_run=True);kind='RRTConnect'
++  if isinstance(result,(int,np.integer)) and result==-1:
++   self.calls.append({'phase':name,'kind':kind,'status':'FAILED'})
++   raise RuntimeError('planning failed: '+name)
++  self.calls.append({'phase':name,'kind':kind,'waypoints':len(result['position']),'status':'PATH_FOUND'})
++  value=self.follow_path(result)
++  if len(result['position'])==0:
++   actual=self.base_env.agent.tcp.pose.sp
++   angle=2*np.arccos(np.clip(abs(np.dot(actual.q,pose.q)),0,1))
++   if np.linalg.norm(actual.p-pose.p)>0.015 or angle>0.10:
++    raise RuntimeError('empty path does not achieve requested pose: '+name)
++  return value
+ 
+-    # Get tool OBB and compute grasp pose
+-    tool_obb = get_actor_obb(env.l_shape_tool)
+-    approaching = np.array([0, 0, -1])
+-    target_closing = env.agent.tcp.pose.to_transformation_matrix()[0, :3, 1].cpu().numpy()
+-    
+-    grasp_info = compute_grasp_info_by_obb(
+-        tool_obb,
+-        approaching=approaching,
+-        target_closing=target_closing,
+-        depth=0.03,
+-    )
+-    closing, center = grasp_info["closing"], grasp_info["center"]
+-    grasp_pose = env.agent.build_grasp_pose(approaching, closing, env.l_shape_tool.pose.sp.p)
+-    offset = sapien.Pose([0.02, 0, 0])
+-    grasp_pose = grasp_pose * (offset)
++def transport_tool(raw,planner,desired,name):
++ # Desired TCP is recomputed from the measured in-hand rigid transform.
++ tool=raw.l_shape_tool.pose.sp;tcp=raw.agent.tcp.pose.sp
++ return planner.move(desired*tool.inv()*tcp,name)
+ 
+-    # -------------------------------------------------------------------------- #
+-    # Reach
+-    # -------------------------------------------------------------------------- #
+-    reach_pose = grasp_pose * sapien.Pose([0, 0, -0.05])
+-    res = planner.move_to_pose_with_screw(reach_pose)
+-    if res == -1: return res
++def return_xy(raw,target):
++ cube=vec(raw.cube.pose.p);q=vec(raw.cube.pose.q);R=quat2mat(q)[:2,:2]
++ half=np.abs(R)@np.array([raw.cube_half_size,raw.cube_half_size])
++ options=[(0,0),(.05,0),(-.05,0),(0,.05),(0,-.05),(.035,.035),(.035,-.035),(-.035,.035),(-.035,-.035)]
++ candidates=[]
++ for off in options:
++  xy=target+off;local=cube[:2]-xy
++  gaps=[]
++  for center,toolhalf in [(np.array([.10,0]),np.array([.10,.025])),(np.array([.175,.05]),np.array([.025,.05]))]:
++   separation=np.abs(local-center)-(toolhalf+half)
++   gaps.append(float(np.max(separation)))
++  clearance=min(gaps)
++  if clearance>=.008:candidates.append((np.linalg.norm(off),-clearance,xy,clearance))
++ if not candidates:raise RuntimeError('no supported cube-clear return point in unchanged 0.06m goal region')
++ chosen=min(candidates,key=lambda x:(x[0],x[1]))
++ return chosen[2],chosen[3]
+ 
+-    # -------------------------------------------------------------------------- #
+-    # Grasp
+-    # -------------------------------------------------------------------------- #
+-    res = planner.move_to_pose_with_screw(grasp_pose)
+-    if res == -1: return res
+-    planner.close_gripper()
+-
+-    # -------------------------------------------------------------------------- #
+-    # Lift tool to safe height
+-    # -------------------------------------------------------------------------- #
+-    lift_height = 0.35  
+-    lift_pose = sapien.Pose(grasp_pose.p + np.array([0, 0, lift_height]))
+-    lift_pose.set_q(grasp_pose.q)  # Maintain grasp orientation
+-    res = planner.move_to_pose_with_screw(lift_pose)
+-    if res == -1: return res
+-
+-    cube_pos = env.cube.pose.sp.p
+-    approach_offset = sapien.Pose(
+-        [-(env.hook_length + env.cube_half_size + 0.08),  
+-        -0.0,  
+-        lift_height - 0.05]  
+-    )
+-    approach_pose = sapien.Pose(cube_pos) * approach_offset
+-    approach_pose.set_q(grasp_pose.q)
+-    
+-    res = planner.move_to_pose_with_screw(approach_pose)
+-    if res == -1: return res
+-
+-    # -------------------------------------------------------------------------- #
+-    # Lower tool behind cube
+-    # -------------------------------------------------------------------------- #
+-    behind_offset = sapien.Pose(
+-        [-(env.hook_length + env.cube_half_size),  
+-        -0.067,  
+-        0] 
+-    )
+-    hook_pose = sapien.Pose(cube_pos) * behind_offset
+-    hook_pose.set_q(grasp_pose.q)
+-    
+-    res = planner.move_to_pose_with_screw(hook_pose)
+-    if res == -1: return res
+-
+-    # -------------------------------------------------------------------------- #
+-    # Pull cube
+-    # -------------------------------------------------------------------------- #
+-    pull_offset = sapien.Pose([-0.35, 0, 0])
+-    target_pose = hook_pose * pull_offset
+-    res = planner.move_to_pose_with_screw(target_pose)
+-    if res == -1: return res
+-
+-    planner.close()
+-    return res+def solve_v2_patch(env,planner,config):
++ raw=env.unwrapped;approaching=np.array([0,0,-1]);closing=raw.agent.tcp.pose.to_transformation_matrix()[0,:3,1].cpu().numpy()
++ info=compute_grasp_info_by_obb(get_actor_obb(raw.l_shape_tool),approaching=approaching,target_closing=closing,depth=.03)
++ # Correct frame of handle offset; keep v2 grasp axis selection.
++ grasp=raw.agent.build_grasp_pose(approaching,info['closing'],vec(raw.l_shape_tool.pose.p)+np.array([.02,0,0]))
++ planner.move(grasp*sapien.Pose([0,0,-.05]),'reach-tool');planner.move(grasp,'grasp-tool');planner.close_gripper(t=12)
++ if not bool(raw.agent.is_grasping(raw.l_shape_tool).item()):raise RuntimeError('tool grasp not verified before lift')
++ planner.move(sapien.Pose(grasp.p+np.array([0,0,.20]),grasp.q),'lift-tool')
++ if vec(raw.l_shape_tool.pose.p)[2]<.10 or not bool(raw.agent.is_grasping(raw.l_shape_tool).item()):raise RuntimeError('tool grasp lost after lift')
++ cube=vec(raw.cube.pose.p);cube_q=vec(raw.cube.pose.q);cubehalf=float(np.sum(np.abs(quat2mat(cube_q)[0,:2]))*raw.cube_half_size)
++ # Inner vertical face of hook: local x=.15, local y=.05; place just right
++ # of actual cube extent, then translate left using world coordinates.
++ hook=np.array([cube[0]+cubehalf+.025-.15,cube[1]-.05,raw.height/2])
++ high=hook.copy();high[2]=.20
++ transport_tool(raw,planner,sapien.Pose(high),'hook-approach')
++ transport_tool(raw,planner,sapien.Pose(hook),'hook-lower')
++ pull=hook.copy();pull[0]-=.35
++ transport_tool(raw,planner,sapien.Pose(pull),'physical-pull')
++ if not bool(raw.agent.is_grasping(raw.l_shape_tool).item()):raise RuntimeError('tool grasp lost after pull')
++ high=vec(raw.l_shape_tool.pose.p);high[2]+=.15
++ transport_tool(raw,planner,sapien.Pose(high),'lift-after-contact')
++ target=np.array([[-.20,-.18],[-.20,.02],[-.05,-.22]][config]);xy,clearance=return_xy(raw,target)
++ high=np.r_[xy,.18];transport_tool(raw,planner,sapien.Pose(high),'return-high')
++ transport_tool(raw,planner,sapien.Pose(np.r_[xy,raw.height/2]),'return-lower')
++ planner.open_gripper(t=20)
++ tcp=raw.agent.tcp.pose.sp;planner.move(sapien.Pose(tcp.p+np.array([0,0,.10]),tcp.q),'retreat-after-release')
++ # Execute real quiet hold; unchanged static/position criteria below.
++ q=vec(raw.agent.robot.get_qpos())[:7]
++ for _ in range(10):env.step(np.r_[q,planner.OPEN])
++ return {'return_target':target.tolist(),'chosen_supported_xy':xy.tolist(),'clearance':clearance}
+--- v2-original/t2_v2_original_runner.py
++++ M1b_lite/run_p1.py
+@@ -1,58 +1,43 @@
+-import argparse,json,csv,time,traceback
++import sys,json,csv,time,traceback,os
+ from pathlib import Path
+-import numpy as np,gymnasium as gym,sapien
+-import mani_skill.envs,skillcomp.m1_candidates
+-from skillcomp.oracle import run_oracle,_try_pose,_as_np,_current_tcp
++os.environ.pop('DISPLAY',None);os.environ.pop('WAYLAND_DISPLAY',None)
++ROOT=Path('/home/users/lemon/TRO');OUT=ROOT/'M1b_lite';os.environ['MS_ASSET_DIR']=str(ROOT/'skill_composition/assets');os.environ['XDG_CACHE_HOME']=str(ROOT/'skill_composition/cache');os.environ['MS_SKIP_ASSET_DOWNLOAD_PROMPT']='1'
++sys.path.insert(0,str(ROOT/'skill_composition/scripts'))
+ from physical_audit import PhysicalAudit
++from t2_v2_patch import seed_planners,SafeV2Planner,solve_v2_patch,vec
++import gymnasium as gym,numpy as np
++import mani_skill.envs
+ from mani_skill.utils.wrappers.record import RecordEpisode
+-from mani_skill.examples.motionplanning.panda.solutions.pull_cube_tool import solve as pull_solve
+-from mani_skill.examples.motionplanning.panda.motionplanner import PandaArmMotionPlanningSolver
+-p=argparse.ArgumentParser();p.add_argument('--family',choices=['T1','T2'],required=True);p.add_argument('--episodes',type=int,default=24);p.add_argument('--out',required=True);a=p.parse_args();out=Path(a.out);out.mkdir(parents=True,exist_ok=True)
+-rows=[]
+-for ep in range(a.episodes):
+- config=ep%3;seed=(230000 if a.family=='T1' else 240000)+ep;dest=out/f'episode_{ep}';dest.mkdir(exist_ok=True)
+- kwargs=dict(num_envs=1,obs_mode='state',control_mode='pd_joint_pos',sim_backend='physx_cpu',reward_mode='sparse',max_episode_steps=500 if a.family=='T1' else 600,render_mode='rgb_array')
+- if a.family=='T1':kwargs['goal_config']=config
+- base=gym.make('RegraspStackCandidate-v1' if a.family=='T1' else 'PullCubeTool-v1',**kwargs)
+- audit=PhysicalAudit(base);env=RecordEpisode(audit,output_dir=str(dest),save_video=True,save_trajectory=True,trajectory_name='oracle',save_on_reset=True,source_type='motionplanning',source_desc='M1 candidate engineering privileged oracle')
+- t=time.monotonic();error='';checks={};success=False
+- try:
+-  try:
+-   if a.family=='T1':
+-    run_oracle(env,seed,regrasp_yaw=np.pi/2 if config%2 else 0)
+-    checks={'stage':int(env.unwrapped.stage_id.item())};success=checks['stage']==4
+-   else:
+-    pull_solve(env,seed=seed);raw=env.unwrapped
+-    # New planner continues the same physical scene; no reset, no target teleport.
+-    planner=PandaArmMotionPlanningSolver(env,base_pose=raw.agent.robot.pose,vis=False,debug=False,visualize_target_grasp_pose=False,print_env_info=False,joint_vel_limits=0.75,joint_acc_limits=0.75)
+-    planner.gripper_state = planner.CLOSED  # preserve ongoing grasp across solver instances
+-    try:
+-     tcp=_current_tcp(raw);_try_pose(planner,sapien.Pose(tcp.p+np.array([0,0,0.15]),tcp.q),'lift-after-contact')
+-     target=np.array([[-0.20,-0.18],[-0.20,0.02],[-0.05,-0.22]][config]);tool=_as_np(raw.l_shape_tool.pose.p);tcp=_current_tcp(raw)
+-     high=tool.copy();high[:2]=target;high[2]=max(0.16,tool[2])
+-     _try_pose(planner,sapien.Pose(tcp.p+high-tool,tcp.q),'return-high')
+-     tool=_as_np(raw.l_shape_tool.pose.p);tcp=_current_tcp(raw);low=tool.copy();low[2]=raw.height/2
+-     lower_pose=sapien.Pose(tcp.p+low-tool,tcp.q)
+-     result=planner.move_to_pose_with_screw(lower_pose)
+-     if isinstance(result,(int,np.integer)) and result == -1:
+-      result=planner.move_to_pose_with_RRTConnect(lower_pose)
+-      if isinstance(result,(int,np.integer)) and result == -1:
+-       raise RuntimeError('return-lower screw and RRTConnect failed')
+-     planner.open_gripper(t=20)
+-     cube0=np.array(audit.initial['actors']['cube'][0][:3]);cube=_as_np(raw.cube.pose.p);tool=_as_np(raw.l_shape_tool.pose.p)
+-     contacted=any({n.removeprefix('scene-0_') for n in c['bodies']}=={'cube','l_shape_tool'} and any(np.linalg.norm(p['impulse'])>1e-7 for p in c['points']) for f in audit.trace for c in f['contacts'])
+-     checks={'cube_dx':float(cube0[0]-cube[0]),'tool_cube_contact':contacted,'return_xy_error':float(np.linalg.norm(tool[:2]-target)),'tool_static':bool(raw.l_shape_tool.is_static(lin_thresh=0.01,ang_thresh=0.5).item()),'tool_released':not bool(raw.agent.is_grasping(raw.l_shape_tool).item()),'tool_z':float(tool[2])}
+-     success=checks['cube_dx']>=0.20 and contacted and checks['return_xy_error']<0.06 and checks['tool_static'] and checks['tool_released'] and abs(tool[2]-raw.height/2)<0.015
+-    finally:planner.close()
+-   assert audit.resets==1
+-  except Exception:
+-   error=traceback.format_exc();(dest/'error.txt').write_text(error)
+-  h=audit.digest();(dest/'physical_trace.json').write_text(json.dumps({'initial':audit.initial,'init_state_sha256':h,'trace':audit.trace,'reset_count':audit.resets,'checks':checks}))
+-  row=dict(family=a.family,config=config,episode_id=ep,seed=seed,init_state_id=f'{a.family}_dev_{seed}',init_state_sha256=h,success=success and not error,steps=len(audit.trace),reset_count=audit.resets,teleport_guard=True,seconds=time.monotonic()-t,checks=json.dumps(checks),error=error,trajectory_path=f'episode_{ep}/physical_trace.json',video_path=f'episode_{ep}/0.mp4')
+-  rows.append(row)
+-  with (out/'oracle_episodes.csv').open('w') as f:
+-   w=csv.DictWriter(f,fieldnames=row.keys());w.writeheader();w.writerows(rows)
+-  print({k:v for k,v in row.items() if k!='error'},error,flush=True)
+- finally:env.close()
+-assert len(set(r['init_state_sha256'] for r in rows))==len(rows)
+-print('success',sum(r['success'] for r in rows),'/',len(rows))
++seed=int(sys.argv[1]);version=sys.argv[2];config=(seed-240000)%3;dest=OUT/'P1_runs'/f'{version}_{seed}';dest.mkdir(parents=True,exist_ok=False)
++# The controller reserves attempts before launching this process, even if it crashes.
++rng=seed_planners(seed)
++base=gym.make('PullCubeTool-v1',num_envs=1,obs_mode='state',control_mode='pd_joint_pos',sim_backend='physx_cpu',reward_mode='sparse',max_episode_steps=600,render_mode='rgb_array')
++audit=PhysicalAudit(base,max_steps=600);env=RecordEpisode(audit,output_dir=str(dest),save_video=True,save_trajectory=True,trajectory_name='oracle',save_on_reset=True,source_type='motionplanning',source_desc='M1b Lite bounded T2 v2 patch engineering')
++old={int(r['eval_seed']):r for r in csv.DictReader((ROOT/'skill_composition/reports/per_episode_results.csv').open()) if r['run_id']=='T2_v2_pilot24'}[seed]
++error='';tags=[];success=False;planner=None;checks={};extra={};guard=[];started=time.monotonic()
++try:
++ env.reset(seed=seed);raw=env.unwrapped
++ assert audit.digest()==old['init_state_sha256'],'initial physical-state hash differs'
++ # No runtime writes to physical robot poses or joints (MPLib's separate model is unaffected).
++ for attr in ['set_pose','set_qpos','set_qvel']:
++  guard.append((attr,getattr(raw.agent.robot,attr)))
++  def forbidden(*a,**kw):raise AssertionError('robot state teleport forbidden')
++  setattr(raw.agent.robot,attr,forbidden)
++ planner=SafeV2Planner(env);extra=solve_v2_patch(env,planner,config)
++except Exception:
++ error=traceback.format_exc();(dest/'error.txt').write_text(error)
++finally:
++ raw=env.unwrapped;cube0=np.array(audit.initial['actors']['cube'][0][:3]) if audit.initial else np.zeros(3);cube=vec(raw.cube.pose.p);tool=vec(raw.l_shape_tool.pose.p);target=np.array([[-.20,-.18],[-.20,.02],[-.05,-.22]][config])
++ contact=any({n.removeprefix('scene-0_') for n in c['bodies']}=={'cube','l_shape_tool'} and any(np.linalg.norm(p['impulse'])>1e-7 for p in c['points']) for f in audit.trace for c in f['contacts'])
++ checks={'tool_cube_contact':contact,'cube_dx':float(cube0[0]-cube[0]),'return_xy_error':float(np.linalg.norm(tool[:2]-target)),'tool_static':bool(raw.l_shape_tool.is_static(lin_thresh=.01,ang_thresh=.5).item()),'tool_released':not bool(raw.agent.is_grasping(raw.l_shape_tool).item()),'tool_z':float(tool[2])}
++ success=bool(not error and contact and checks['cube_dx']>=.20 and checks['return_xy_error']<.06 and checks['tool_static'] and checks['tool_released'] and abs(tool[2]-raw.height/2)<.015)
++ if not success:
++  tags=['TIMEOUT_BUDGET' if 'TimeoutError' in error else 'PLANNING' if 'planning failed' in error else 'GRASP' if 'grasp' in error else 'INTERFACE_OR_IMPLEMENTATION' if error else 'CONTACT_OR_RETURN']
++ assert len(audit.trace)<=600 and audit.resets==1
++ (dest/'physical_trace.json').write_text(json.dumps({'initial':audit.initial,'initial_hash':audit.digest(),'trace':audit.trace,'reset_count':audit.resets,'checks':checks,'extra':extra,'planner_rng':rng,'planner_calls':planner.calls if planner else []}))
++ row={'seed':seed,'version':version,'init_state_sha256':audit.digest(),'old_success':old['chain_success'],'new_success':success,**checks,'steps':len(audit.trace),'reset_count':audit.resets,'planner_moves':len(planner.calls) if planner else 0,'empty_paths':planner.empty_paths if planner else 0,'failed_phase':planner.phase if planner and error else '', 'failure_tags':'|'.join(tags),'seconds':time.monotonic()-started,'error':error,'trajectory_path':str((dest/'physical_trace.json').relative_to(OUT)),'video_path':str((dest/'0.mp4').relative_to(OUT))}
++ (dest/'result.json').write_text(json.dumps(row,indent=2));(dest/'planner_rng.json').write_text(json.dumps(rng))
++ if planner:planner.close()
++ for attr,fun in guard:setattr(raw.agent.robot,attr,fun)
++ env.close()
++ print(json.dumps({k:row[k] for k in ['seed','new_success','steps','cube_dx','tool_cube_contact','tool_static','failed_phase','failure_tags']}))

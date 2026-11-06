@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/users/lemon/TRO/M1b_lite/run_p1.py", line 26, in <module>
+    planner=SafeV2Planner(env);extra=solve_v2_patch(env,planner,config)
+  File "/home/users/lemon/TRO/M1b_lite/t2_v2_patch.py", line 88, in solve_v2_patch
+    if not bool(raw.agent.is_grasping(raw.l_shape_tool).item()):raise RuntimeError('tool grasp lost after pull')
+RuntimeError: tool grasp lost after pull

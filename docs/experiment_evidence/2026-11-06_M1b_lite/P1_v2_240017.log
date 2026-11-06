@@ -1,0 +1,21 @@
+[33;1m2026-11-06 08:26:21,707 - mani_skill  - WARNING - No initial pose set for articulation builder of panda, setting to default pose q=[1,0,0,0], p=[0,0,0]. There may be simulation issues/bugs if this articulation at it's initial pose collides with other objects at their initial poses.[0m
+[33;1m2026-11-06 08:26:21,733 - mani_skill  - WARNING - No initial pose set for actor builder of cube, setting to default pose q=[1,0,0,0], p=[0,0,0]. Not setting reasonable initial poses may slow down simulation, see https://github.com/haosulab/ManiSkill/issues/421.[0m
+[33;1m2026-11-06 08:26:21,734 - mani_skill  - WARNING - No initial pose set for actor builder of l_shape_tool, setting to default pose q=[1,0,0,0], p=[0,0,0]. Not setting reasonable initial poses may slow down simulation, see https://github.com/haosulab/ManiSkill/issues/421.[0m
+[33;1m2026-11-06 08:26:21,804 - mani_skill  - WARNING - mani_skill is not installed with git.[0m
+screw plan failed
+Traceback (most recent call last):
+  File "/home/users/lemon/TRO/M1b_lite/run_p1.py", line 39, in <module>
+    (dest/'result.json').write_text(json.dumps(row,indent=2));(dest/'planner_rng.json').write_text(json.dumps(rng))
+  File "/home/users/lemon/TRO/.conda/tro-baseline/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/home/users/lemon/TRO/.conda/tro-baseline/lib/python3.10/json/encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "/home/users/lemon/TRO/.conda/tro-baseline/lib/python3.10/json/encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/home/users/lemon/TRO/.conda/tro-baseline/lib/python3.10/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/home/users/lemon/TRO/.conda/tro-baseline/lib/python3.10/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/home/users/lemon/TRO/.conda/tro-baseline/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type bool_ is not JSON serializable

@@ -1,0 +1,23 @@
+{
+  "seed": 240014,
+  "version": "v2",
+  "init_state_sha256": "d801f0b62e23a08ab68c463bfb278a1b1f455dd4df113e8250c92e3549ae65c2",
+  "old_success": "false",
+  "new_success": false,
+  "tool_cube_contact": true,
+  "cube_dx": 0.08911441452801228,
+  "return_xy_error": 0.335145594004446,
+  "tool_static": true,
+  "tool_released": true,
+  "tool_z": 0.024999964982271194,
+  "steps": 254,
+  "reset_count": 1,
+  "planner_moves": 6,
+  "empty_paths": 0,
+  "failed_phase": "physical-pull",
+  "failure_tags": "GRASP",
+  "seconds": 0.9489708873443305,
+  "error": "Traceback (most recent call last):\n  File \"/home/users/lemon/TRO/M1b_lite/run_p1.py\", line 26, in <module>\n    planner=SafeV2Planner(env);extra=solve_v2_patch(env,planner,config)\n  File \"/home/users/lemon/TRO/M1b_lite/t2_v2_patch.py\", line 88, in solve_v2_patch\n    if not bool(raw.agent.is_grasping(raw.l_shape_tool).item()):raise RuntimeError('tool grasp lost after pull')\nRuntimeError: tool grasp lost after pull\n",
+  "trajectory_path": "P1_runs/v2_240014/physical_trace.json",
+  "video_path": "P1_runs/v2_240014/0.mp4"
+}

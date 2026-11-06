@@ -1,0 +1,30 @@
+{
+  "env_info": {
+    "env_id": "PullCubeTool-v1",
+    "env_kwargs": {
+      "num_envs": 1,
+      "obs_mode": "state",
+      "control_mode": "pd_joint_pos",
+      "sim_backend": "physx_cpu",
+      "reward_mode": "sparse",
+      "render_mode": "rgb_array"
+    },
+    "max_episode_steps": 600
+  },
+  "commit_info": null,
+  "episodes": [
+    {
+      "episode_id": 0,
+      "episode_seed": 240014,
+      "control_mode": "pd_joint_pos",
+      "elapsed_steps": 254,
+      "reset_kwargs": {
+        "options": null,
+        "seed": 240014
+      },
+      "success": false
+    }
+  ],
+  "source_type": "motionplanning",
+  "source_desc": "M1b Lite bounded T2 v2 patch engineering"
+}

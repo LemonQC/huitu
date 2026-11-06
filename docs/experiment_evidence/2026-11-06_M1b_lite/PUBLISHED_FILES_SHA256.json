@@ -1,0 +1,412 @@
+[
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/CHECKSUMS.sha256",
+    "bytes": 9338,
+    "sha256": "d4a1070b2986ab3281c7250ed2471489e45c5b282326cdef00940af0e118b52c"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/DECISION.md",
+    "bytes": 1565,
+    "sha256": "1ecd3ff9f16fe965fc8116a24d664feff684a46af81b47648bfdf6d567450b86"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/FINAL_AUDIT.json",
+    "bytes": 349,
+    "sha256": "78905d981921bc6cc25dc5032919ef5b22b2479f55709bf6b3cba9fac65a8d15"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P0_ROOT_CAUSE.md",
+    "bytes": 2407,
+    "sha256": "6ca7b4d5293f4689ad4c8089ad085146e0e42c9f9f249f2d76cd381319557661"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P0_analysis.log",
+    "bytes": 5201,
+    "sha256": "51afe91d9ae586eb859b39c2b629f4d93a4ac71f664756518e571dfbddcf066d"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P0_trace_analysis.json",
+    "bytes": 65840,
+    "sha256": "8d5963290ecf24329f8f8c144cae45dbef779de4ccd69c9f4efcc1490d0d360a"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_ATTEMPTS.json",
+    "bytes": 1037,
+    "sha256": "47df3ae2305fa3b8b10b811779de823921844a50ca84588df28f9ec13ffd46de"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_BUDGET.json",
+    "bytes": 679,
+    "sha256": "fa323f20c20b52edfa59fa114fabe220406557e08b92456ebb92a8eb1dbd02d1"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_DECISION.md",
+    "bytes": 3765,
+    "sha256": "b9608bd2e71a57b788a90ce2ca946ee3dc92734864a1ea17bfbc435329dac2fe"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_EPISODES.csv",
+    "bytes": 4327,
+    "sha256": "30453154f403891c6f8474b4fb708d8ed98086b1af870c7ec22a0c75d4d6df31"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_PATCH.diff",
+    "bytes": 19592,
+    "sha256": "dd4f64c7fa86ac5352b12751000da5826638bc2e239e16e4b066f15472db4995"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_REVISION.md",
+    "bytes": 987,
+    "sha256": "976186daeae531873607e48bbce66ba8324417689ab97f9d005bf49e56ffdc66"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_regression_results.log",
+    "bytes": 36,
+    "sha256": "6bdecd17cc6f8c5112f4ef73b814996292efdaad95442769f4d60b5e9ac1889d"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v1_240010/0.mp4",
+    "bytes": 416258,
+    "sha256": "9a24baf86a8a2d622907c3fe26cb6fa1afbf898d7b6116e9b49d732ed9c314cd"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v1_240010/oracle.json",
+    "bytes": 671,
+    "sha256": "246643d32b731667acf91cf45e172b3bc37aab4604cae8d1addc4730447350b7"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v1_240010/physical_trace.json.gz",
+    "bytes": 691893,
+    "sha256": "0962383e0bfcf77d75f223ee2e2cc211a13e7fde5762485c717c4fb9c4f6bcba"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v1_240010/planner_rng.json",
+    "bytes": 177,
+    "sha256": "72fc5c8b559892bae97f133cfdabc5a1578f1e897137a72e0c05ca7d584a576b"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v1_240010/result.json",
+    "bytes": 661,
+    "sha256": "30535a8eec131fd05e3be390e24322a3037bcb20f4129acfb3a61719cd21d2f5"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v1_240014/0.mp4",
+    "bytes": 444952,
+    "sha256": "5caf8c5185b361fb346ed5ac47de712a2b2dcb27f8ed6460118cdf5df0e5c9cf"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v1_240014/oracle.json",
+    "bytes": 671,
+    "sha256": "4aa6ae6c17e030470200f508c42fd2fce4d2d4346737564fb8d14a52513d61bd"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v1_240014/physical_trace.json.gz",
+    "bytes": 732862,
+    "sha256": "a487e0cc76aa2b59366fa00f44f07fd8973ad3e2cd04309ed5a1733732e89bd9"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v1_240014/planner_rng.json",
+    "bytes": 177,
+    "sha256": "1cc28e09c11db11fa28c19f4bafba6253e0c8369a189bc01b522abafec07b006"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v1_240014/result.json",
+    "bytes": 663,
+    "sha256": "3cc1672c882a3f04227225be534a9c2b77ce73684ca23a13de879bd88891a5cb"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v1_240017/0.mp4",
+    "bytes": 416739,
+    "sha256": "4648872f85a78a63c1da9f1c9d8d6a7239631ddf1594d3443408df867efe0ff2"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v1_240017/oracle.json",
+    "bytes": 671,
+    "sha256": "f446aef993b9e04e4c6920eea452b0edee20075695300ef929b4507e9d90d24a"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v1_240017/physical_trace.json.gz",
+    "bytes": 660770,
+    "sha256": "0a0a919307145803536a6070a7aed39b88146ad43c9b0058a1ff99f58b798a49"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v1_240017/planner_rng.json",
+    "bytes": 177,
+    "sha256": "6c2a7ae10a0e4660a7604cfe7ae4cae0bbca640a2249941f24c12b274bcb4d7f"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v1_240017/result.json",
+    "bytes": 661,
+    "sha256": "81b043964b0954f34f376f3698005a4cf637d20bfcac913a3d63b410da5b2e70"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v1_240018/0.mp4",
+    "bytes": 469546,
+    "sha256": "1204668006af5bbf7f125ad4d6e1d5843043ed457e7bc1dde9cfa67dbc4f21a8"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v1_240018/oracle.json",
+    "bytes": 671,
+    "sha256": "78e94944e4151ca70586d756aad083f0ddfc8bc65dcce721aa9c31cabb5d3d2d"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v1_240018/physical_trace.json.gz",
+    "bytes": 811850,
+    "sha256": "e1a684fc3b9b17642c604170106dec02edc3c6d459f5a7439c66d2686cd70f32"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v1_240018/planner_rng.json",
+    "bytes": 177,
+    "sha256": "148ebe7392700f8e3e2343301b8d6c0eb95fcf68b81a70b6dab906f66fd8b6e9"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v1_240018/result.json",
+    "bytes": 660,
+    "sha256": "dd270f4e64945f95f62faa3f3e268f226b223bf424b5e85409b87d768111bf0a"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v1_240019/0.mp4",
+    "bytes": 435815,
+    "sha256": "772a7f746112a5688ac6ef9fdde0f5d5e746dcaa9b0e4f9f4f871f65c86c6eb8"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v1_240019/oracle.json",
+    "bytes": 671,
+    "sha256": "d658b3395e91c9e6ad34d20738d5bcf7e3af81335ad66f68e1d91951b9f4efd1"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v1_240019/physical_trace.json.gz",
+    "bytes": 720404,
+    "sha256": "71fcf2b7d8653f288a5790cea2cda7d82d0631dac52da5a64f988ad38713a1ac"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v1_240019/planner_rng.json",
+    "bytes": 177,
+    "sha256": "eb03af6268d43cb422f1dfec6523d897d9e079c4c4f7cf810c17de7f6af93474"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v1_240019/result.json",
+    "bytes": 661,
+    "sha256": "abf73f1f16a006e3127de0f8506b4dadda5ac53b051eda77d81a113db9c5a2ad"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v2_240000/0.mp4",
+    "bytes": 475019,
+    "sha256": "fa5d4aaf3517964cbfb9b0581c8fe60cf0d2cf62f290ff8fa18583671c3824d5"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v2_240000/oracle.json",
+    "bytes": 670,
+    "sha256": "d1b111e902fda24fb7e692007ca76e139893dfdbd252f694bf7026a5612b7f0d"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v2_240000/physical_trace.json.gz",
+    "bytes": 768677,
+    "sha256": "e7ecb6be5844f1be0536ba88085a5eb384d32dacc6a23954ea35dfe92f83ecf6"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v2_240000/planner_rng.json",
+    "bytes": 177,
+    "sha256": "67043a81ea387e586e76252bdddce9761c2719b044235f7ad716555cc29674d9"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v2_240000/result.json",
+    "bytes": 641,
+    "sha256": "8094b2b8f6a44dad735cb2a22cd8e165bc11c682a52cfde585317ebfc6a65e25"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v2_240001/0.mp4",
+    "bytes": 442978,
+    "sha256": "cd4596f8ad173568c6bd91c5fe2a8bd0b5031eedb4fec5d6b78dd529b2faa3a5"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v2_240001/oracle.json",
+    "bytes": 670,
+    "sha256": "6caaba226d86d5ad53c651ad3c8b972a6f3e2303fae415b9feb610c3f00820b6"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v2_240001/physical_trace.json.gz",
+    "bytes": 760643,
+    "sha256": "9d68fde0f84514f4b88876189dcc2974ee1d393f2b4e5aa745854adaae89f280"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v2_240001/planner_rng.json",
+    "bytes": 177,
+    "sha256": "b8766d86dd374092b5bf7af36607ccc879ed6d665f652355e782ac69a6da2983"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v2_240001/result.json",
+    "bytes": 640,
+    "sha256": "9cc1de5b95de13dd04bc7aabbff321599a06a44626b295091b2b528cd964bb7e"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v2_240010/physical_trace.json.gz",
+    "bytes": 793935,
+    "sha256": "5cbb74adaf6931162d6065b33db1b46e712aa59c88d80884c1170640ff9327df"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v2_240010/result.json",
+    "bytes": 808,
+    "sha256": "e2f61dbb3575c47389df48bbea9be4a9526a551cfa92c2ae97fea90b90ae2cac"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v2_240014/0.mp4",
+    "bytes": 323637,
+    "sha256": "8d56d3bd9194dc3e8dcb1fefc4f69f686694187b79fb4fba9ab314bd98b4c2da"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v2_240014/error.txt",
+    "bytes": 416,
+    "sha256": "f1e6b9f6f72e92cc887edcaa9548c78020c198fdc2630ac77a99d1d7fe81827c"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v2_240014/oracle.json",
+    "bytes": 671,
+    "sha256": "00e3a676439dc61f23b215452e14957f31f9a986c17996ce1d89fdcbf05defca"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v2_240014/physical_trace.json.gz",
+    "bytes": 482655,
+    "sha256": "6a63af8d22934ded29fbb2462f567fcc42df8ad2f49f7c02c0e722a2db815bd9"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v2_240014/planner_rng.json",
+    "bytes": 177,
+    "sha256": "1cc28e09c11db11fa28c19f4bafba6253e0c8369a189bc01b522abafec07b006"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v2_240014/result.json",
+    "bytes": 1084,
+    "sha256": "c7d42d7cffe039b027b13bd580dd12351a707b216276c6300ae0ce5ac95ad9a3"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v2_240017/physical_trace.json.gz",
+    "bytes": 619838,
+    "sha256": "467247b923a3f3f2e990bc574fa69b2fce6946a0e3fc32164768219531f59982"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v2_240017/result.json",
+    "bytes": 807,
+    "sha256": "fd8cc0f118e206c337968e0ce3307396c7671db115c6a93690f00916250b1308"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v2_240018/physical_trace.json.gz",
+    "bytes": 730737,
+    "sha256": "2cbb0228bb589dfb4d09234f259a04eb0e7e5fd5a9ab4a89ba98b379e5ce2278"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v2_240018/result.json",
+    "bytes": 806,
+    "sha256": "2509ac34cb5bf263672a58c709ea5211659a2db4248991522ca31d4dbdf3f2e7"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v2_240019/physical_trace.json.gz",
+    "bytes": 644756,
+    "sha256": "06b80ca63176ebb8baf2557d8013f5ad3daca8f73b9ddcacd6484282289ccb8d"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_runs/v2_240019/result.json",
+    "bytes": 806,
+    "sha256": "6089e4e4d8a10acf7a4ca55e98831aac66802bf20738e0c50352baa9e69cc858"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_v1_240010.log",
+    "bytes": 1173,
+    "sha256": "b4ed1fa9f318400ed06a280ee995d292ade4e8be1ccc653586f862277d9021a8"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_v1_240014.log",
+    "bytes": 1191,
+    "sha256": "2c330c990dded9847b098f57c8ed82fef0c45c98660437df428ff1bfa9c5831f"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_v1_240017.log",
+    "bytes": 1173,
+    "sha256": "34db86bd3fea87e426acd61c8617f81c1dada0291f7e4ce0bfcefac49214792d"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_v1_240018.log",
+    "bytes": 1191,
+    "sha256": "3ae8acb568776ba9a735102946f677e19e69d9c2005c9edc4ecb7f0b619a082c"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_v1_240019.log",
+    "bytes": 1191,
+    "sha256": "fa2f62c3393dd5a237613c8e997e2c67105aed14a0fc69cd4e324037ebbb8c45"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_v1_results.log",
+    "bytes": 335,
+    "sha256": "766642b22ad9e3faf75a88bbf0feb108a6f18c48030f2d98e2aa349de84641d7"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_v2_240000.log",
+    "bytes": 1118,
+    "sha256": "a833d05e61d893d15416f450fbf1cfe8e98cb8c5d9c9d0506f0fc025784df19c"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_v2_240001.log",
+    "bytes": 1119,
+    "sha256": "73ad92a01f9f232b1111e5427a45fa67773a5a9ba68a4ed626a0c6f66f9db114"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_v2_240010.log",
+    "bytes": 2076,
+    "sha256": "bea35bebc1a6e21cc2cb735b43ef5a2785d26ea923916a6e35a3ca0b96b103c4"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_v2_240014.log",
+    "bytes": 1156,
+    "sha256": "2aac440ac3c0fb4e3811b42d53ee0ed2c15bd88389a4131f279ebf302e6c8801"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_v2_240017.log",
+    "bytes": 2094,
+    "sha256": "510248cb230095d063c62716afd77fd7c5d2e25f3899db1d07d8f0ed99ca5bf0"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_v2_240018.log",
+    "bytes": 2076,
+    "sha256": "b4c93c68386baf01ae80aae18d1bc9635f9375a33460d11fb6b7d723a01b0d3c"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_v2_240019.log",
+    "bytes": 2112,
+    "sha256": "0b22cffaf5a3ab15bef63892804dc906f702153b12ce3129053963038d6a623c"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P1_v2_results.log",
+    "bytes": 304,
+    "sha256": "a92a9fee3a6afe2538101ff6804bbca2e991f1e2063403e81be867238fe65d4f"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P2_TASK_DISCRIMINATION.md",
+    "bytes": 3148,
+    "sha256": "a85886bf988a0a175ca24fbf458056daebfc29c4f1907eeaba1b0b618e0a1b4d"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P2_static.log",
+    "bytes": 85,
+    "sha256": "a469b49c9000b0ea159b7ec07fc71538197bfa5e1bde913cd3514f21607a6c26"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/P2_static_evidence.json",
+    "bytes": 3329,
+    "sha256": "eb0000698e647f2eb02582cf75e2a3483d0636a8c841ead489abf71a8be6d12e"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/README.md",
+    "bytes": 2539,
+    "sha256": "613af68f6e11bf5cc69d6bf31f54f6f6ace07cc2cf0be9eaa4d852340bf5e5b7"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/REGRESSION_TRIGGER.md",
+    "bytes": 314,
+    "sha256": "2508cc70f2173048d45ae0ec915136e0ed60ff1feef8be5f2aeec6e48f66a534"
+  },
+  {
+    "path": "docs/experiment_evidence/2026-11-06_M1b_lite/result_recovery.log",
+    "bytes": 266,
+    "sha256": "d9992467d9f7d542373d244cee60311161da49b544d5a5a3a285fe6ec4e841ed"
+  }
+]

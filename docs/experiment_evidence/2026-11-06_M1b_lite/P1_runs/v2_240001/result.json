@@ -1,0 +1,23 @@
+{
+  "seed": 240001,
+  "version": "v2",
+  "init_state_sha256": "4214683d9c1688b75b58c5417afd5ade824202a41c53198dc478788fabbe7196",
+  "old_success": "true",
+  "new_success": true,
+  "tool_cube_contact": true,
+  "cube_dx": 0.32856641709804535,
+  "return_xy_error": 0.04589745812107195,
+  "tool_static": true,
+  "tool_released": true,
+  "tool_z": 0.02500000037252903,
+  "steps": 395,
+  "reset_count": 1,
+  "planner_moves": 10,
+  "empty_paths": 0,
+  "failed_phase": "",
+  "failure_tags": "",
+  "seconds": 1.3408235772512853,
+  "error": "",
+  "trajectory_path": "P1_runs/v2_240001/physical_trace.json",
+  "video_path": "P1_runs/v2_240001/0.mp4"
+}

@@ -1,0 +1,15 @@
+{
+  "P0_new_rollouts": 0,
+  "P1_physical_rollouts": 12,
+  "P1_cap": 12,
+  "P2_new_rollouts": 0,
+  "max_steps": 453,
+  "single_reset_all": true,
+  "initial_hash_matches_old_all": true,
+  "final_patch_success": 6,
+  "final_patch_n": 7,
+  "new_video_missing": 4,
+  "not_trained": true,
+  "no_remote_upload": true,
+  "second_control_revision_count": 1
+}
