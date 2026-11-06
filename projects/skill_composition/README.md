@@ -10,7 +10,7 @@ Linux + NVIDIA，Python 3.10+。在本目录执行：
 
 ```bash
 python -m venv .venv && source .venv/bin/activate
-pip install -e .
+pip install -e '.[test]'
 python scripts/smoke.py --episodes 2 --steps 20
 python -m mani_skill.examples.motionplanning.panda.run -e StackCube-v1 --save-video
 ```
@@ -26,6 +26,16 @@ python -m mani_skill.examples.motionplanning.panda.run -e StackCube-v1 --save-vi
 - [交付给 Codex 的任务与验收](AGENTS.md)
 - [可直接复制给 Codex 的逐步执行指令](docs/CODEX_EXECUTION_PROMPT_ZH.md)
 - [主环境的真实实现状态](docs/ENV_STATUS.md)
+- [运动规划 Oracle 与学习动作接口差异](docs/ORACLE_CONTROLLER.md)
+
+物理可行性第一轮可执行候选：
+
+```bash
+python scripts/smoke_handoff.py --episodes 2 --steps 30
+python scripts/collect_oracle.py --episodes 3 --seed 200000 --record-dir outputs/oracle --video
+```
+
+上述 Oracle 是刚提交的代码初稿，未在本服务器验证，需要 Codex 优先调通。
 - [讨论记录](../../docs/research_log/2026-11-06_skill_composition.md)
 
 ## 复现基本原则
