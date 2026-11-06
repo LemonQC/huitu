@@ -1,0 +1,64 @@
+{
+  "task": "Tool-Reuse-2-v0",
+  "robot": "panda",
+  "sim_backend": "physx_cpu",
+  "control_mode": "pd_joint_pos",
+  "control_hz": 20,
+  "sim_hz": 100,
+  "max_steps": 1200,
+  "max_full_rollouts_including_errors": 16,
+  "max_software_corrections": 1,
+  "cube1_and_tool_distribution": "unchanged native ManiSkill3.0.1 PullCubeTool-v1",
+  "cube2_center": [
+    0.24,
+    0.18,
+    0.025
+  ],
+  "cube2_xy_jitter_fullwidth": 0.02,
+  "second_goals": {
+    "A": [
+      -0.1,
+      0.12
+    ],
+    "B": [
+      -0.1,
+      0.24
+    ]
+  },
+  "goal_xy_tolerance": 0.06,
+  "min_dx_per_cube": 0.2,
+  "tool_static_lin": 0.01,
+  "tool_static_ang": 0.5,
+  "P": {
+    "xy": [
+      -0.28,
+      0.12
+    ],
+    "yaw": 0.0
+  },
+  "Q": {
+    "xy": [
+      -0.28,
+      0.12
+    ],
+    "yaw": 1.5707963267948966
+  },
+  "intermediate_goal_common": "tool released, static and supported on unchanged table; no P/Q-specific success target",
+  "batch1_seeds": [
+    310000,
+    310001
+  ],
+  "batch2_seeds": [
+    310002,
+    310003
+  ],
+  "batch3_seeds": [
+    310004,
+    310005,
+    310006,
+    310007
+  ],
+  "training_seed": 17,
+  "bc_max_success_train_segments_per_skill": 64,
+  "bc_max_success_validation_segments_per_skill": 16
+}
