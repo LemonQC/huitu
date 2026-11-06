@@ -23,7 +23,8 @@ class HandoffRegraspStackEnv(StackCubeEnv):
 
     def __init__(self, *args, **kwargs):
         self.stage_id = None
-        super().__init__(*args, robot_uids="panda", **kwargs)
+        kwargs.setdefault("robot_uids", "panda")
+        super().__init__(*args, **kwargs)
 
     def _load_scene(self, options: dict):
         super()._load_scene(options)
