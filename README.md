@@ -27,3 +27,10 @@
 PickCube-v1，100条机器人示范，随机种子42：官方 DP 30,000 iterations，最后评估 Success Once=100%、Success at End=70%；官方 ACT 最后记录位于 29,000 iterations，Success Once=30%、Success at End=0%。两者评估每次20 episodes，尚不足以作为论文最终统计。
 
 详见研究日志。
+
+## 独立技能组合课题（新研究线）
+
+- [机器人技能组合 / 同一 ManiSkill 环境的 Baseline First 项目](projects/skill_composition/README.md)
+- [给 Codex 的直接执行指令](projects/skill_composition/docs/CODEX_EXECUTION_PROMPT_ZH.md)
+
+该项目与上述 Cross-Behavior / Cross-Embodiment 研究独立，实验、数据与论文结论不得混用。
