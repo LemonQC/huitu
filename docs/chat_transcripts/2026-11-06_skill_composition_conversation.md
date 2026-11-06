@@ -639,3 +639,26 @@ GitHub 主分支中此前误传的 `projects/skill_composition/` 共 23 个代�
 后续 **GitHub 只用于归档咱们的聊天文本；研究代码只在当前对话提供本地下载，不主动上传 GitHub。**
 
 ---
+
+## 第 8 轮：用户要求生成 Codex 测试指令，补齐算法并获取 T-RO 判定证据
+
+### 用户
+
+好，现在我需要引导codex来测试了，该怎么去验证，你需要生成Prompt或者指示文档，需要得到的结果可以服务于你判定后续的TRO论文，缺少的算法也要提示，让codex想办法
+
+### 助手
+
+已编写并在本次对话中本地打包 **Codex_TRO_Skill_Composition_Validation_Package_20261106.zip**，包含：
+- `CODEX_MASTER_PROMPT.md`：给 Codex 的全流程执行任务；禁止在未验证前开发 IHCL/Ours
+- `EXPERIMENT_PROTOCOL.md`：连续 ManiSkill3 单环境、Panda、真实物理任务、未见合法组合、已见/未见布局、独立初态与训练/评测拆分
+- `BASELINES_IMPLEMENTATION.md` 与 `MISSING_METHODS_Codex_TODO.md`：低成本对照与 DP/ACT、STAP、GSC、Skill-RRT/SPIN 等算法保真重实现要求，缺失代码可从论文重实现但必须标明身份与差异
+- `REPORT_SCHEMA_AND_REVIEW.md`：逐 episode 数据、视频、训练与推理预算、干预试验和 T-RO 去留报告验收
+- `trial_manifest.yaml`、`episode_template.csv`、`check_evidence.py`、简短启动提示及原有输入 ZIP
+
+**执行路线**：M0 当前代码与环境审计 → M1 真实物理 Oracle 证明 T1 再抓取堆叠与 T2 工具操作两个任务族可行 → M2 原子技能与独立测试条件 → M3 标准/强 baseline 公平复现 → M4 失败机理与 STOP/REFRAME/PROCEED 判断。
+
+**重点强调**：此前旧 ManiSkill 原型并未直接包含于此前提供的 ZIP，恢复脚本只下载 GitHub 历史快照到用户服务器本地（不上传），源码尚未通过用户 GPU/物理验证。本次对话只是生成了 Codex 文档和轻量校验脚本，不代表完成训练或验证，也不保证 T-RO 录用。BOSS 属于 LIBERO/MuJoCo，不能与 ManiSkill3 主实验拼表。
+
+**交付边界**：代码包和 Prompt 仅以本次对话本地下载链接交付，**不上传 GitHub**。本次在 GitHub 只追加了此双方聊天内容。后续判断论文是否值得继续必须依据实际物理、独立初态、强匹配对照及因果干预证据。
+
+---
