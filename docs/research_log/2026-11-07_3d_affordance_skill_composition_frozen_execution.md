@@ -1,3 +1,7 @@
+> **SUPERSEDED / 已撤回（2026-11-07）**：用户指出本文件的 KeyedPartPickInsert 方案只是抓取/IK/碰撞/插入，缺乏真正的 3D functional affordance。**请勿执行本文件中的 Codex 指令或任务、不要继续开展旧计划中的仿真实验。**替代文件：[真正的功能可供性组合纠正方案](2026-11-07_functional_affordance_composition_correction.md)。原文留存仅用于审计，不代表现行决策。
+
+---
+
 # 2026-11-07 — 技能组合研究冻结执行方案（不可自动改题）
 
 > 状态：研究假设/工程任务书。**尚无实验结果、尚未证明 T-RO 级创新**。
